@@ -1,0 +1,304 @@
+
+@btn_color: #eee;
+
+.community {
+  display: block;
+}
+
+.community, .topic, .topic_add {
+  margin: 145px 5%;
+
+  .community_top {
+    width: 100%;
+    height: 35px;
+    .topicFilter, .shareFilter {
+      width: 60px;
+      text-align: center;
+      border-radius: 2px;
+      border: solid 1px grey;
+      float: left;
+      margin: 5px;
+      cursor: pointer;
+    }
+    .topic_btn {
+      float: right;
+    }
+  }
+
+  hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .community_topic {
+    float: left;
+    font-size: 12px;
+    padding: 10px;
+    .community_topic_main {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      .community_topic_main_title_img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+      .community_topic_main_title_heart {
+        height: 15px;width: 15px;
+      }
+    }
+    .community_topic_end {
+      text-align: center;
+      color: lightgray;
+      float: left;
+      //padding:10px 40%;
+    }
+
+    .community_topic_content_description{
+      width: 100%;
+      .community_topic_content_description_title {
+        padding: 10px 10px 5px 0px;
+        font-size: 16px;
+        color: seagreen;
+        cursor: pointer;
+      }
+      .community_topic_content_description_main {
+
+        //img{
+        //  width: 60px;
+        //  height: 60px;
+        //}
+      }
+
+      .community_topic_content_description_time {
+        width: auto;
+        //float: right;
+        //line-height: 3;
+        font-size: 12px;
+        .community_topic_content_description_time_img {
+          height: 6px; width: 6px;
+          background-color: red;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .community_topic_content_img {
+      height: 120px;
+      margin-left: 67%;
+      background-color: darkgray;
+    }
+
+  }
+
+  .community_promo {
+    //width: 20%;
+    //margin-left: 80%;
+    //height: 500px;
+    display: none;
+    .community_promo_active {
+      position: absolute;
+      width: 10%;
+      height: 350px;
+      .community_promo_active_span {
+        padding: 5px 20px;
+        float: left;
+      }
+      hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+
+}
+
+
+.topic {
+  display: block;
+
+  .closeTopic {
+    float: right;
+    font-size: 20px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 1.5;
+    background-color: gray;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 15px;
+  }
+
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .topic_top {
+    height: 80px;
+    .topic_top_title {
+      //margin: 0px 30% 0px 0px;
+      float: left;
+      .topic_top_title_about {
+        height: 30px;
+        line-height: 2;
+      }
+      .topic_top_title_description {
+        font-size: 18px;
+        color: seagreen;
+        padding: 10px;
+      }
+    }
+  }
+
+  .topic_top_like {
+    width: 20%;
+    //margin-left: 70%;
+    height: 50px;
+    .topic_top_like_btn {
+      //margin: 0px 30%;
+      height: 35px;
+      text-align: center;
+      //line-height: 3;
+      background-color: @btn_color;
+      border-radius: 6px;
+      cursor: pointer;
+      padding-top: 10px;
+    }
+  }
+
+  .topic_info {
+    .topic_info_img {
+      float: left;
+      height: 80px;
+      width: 100%;
+      color: grey;
+      .topic_info_img_avatar{
+        width: 40px; height: 40px;
+        border-radius: 50%;
+      }
+    }
+    .topic_info_elements {
+      width: 100%;
+      margin-left: 0px;
+      height: 80px;
+      float: left;
+      .topic_info_elements_data {
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin: 10px 20px;
+        border: solid 1px gray;
+        text-align: center;
+        line-height: 1.7;
+        color: grey;
+      }
+    }
+  }
+
+  .topic_content {
+
+    .topic_content_info {
+      min-height: 300px;
+      img {
+        max-width: 100%;
+      }
+    }
+    .topic_content_comment{
+      border: solid 1px gray;
+      padding: 20px;
+      margin-top: 5px;
+
+      .topic_content_comment_left {
+        margin: 0px 0% 0px 0px;
+        text-align: center;
+        min-height: 100px;
+        padding: 20px 30px 20px 10px;
+        line-height: 3;
+        float: left;
+        .topic_content_comment_left_img {
+          width: 40px; height: 40px;
+          border-radius: 50%;
+        }
+      }
+      .topic_content_comment_right {
+        //margin-left: 20%;
+        min-height: 100px;
+        //padding: 20px;
+        overflow-wrap: break-word;
+        overflow: hidden;
+      }
+
+    }
+
+    .topic_content_reply {
+      margin-top: 10px;
+      margin-bottom: 180px;
+      .topic_content_reply_btn {
+        width: 180px;
+        height: 35px;
+        float: right;
+        text-align: center;
+        margin: 20px;
+        border-color: @btn_color;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+
+
+    .topic_content_comment_btn {
+      margin-left: 70%;
+      .topic_content_comment_btn_like {
+        width: 50px;float: left;height: 30px;margin-left: 60px;line-height: 2;text-align: center;background-color: gray;
+      }
+      .topic_content_comment_btn_reply {
+        height: 30px;margin-left: 150px;line-height: 2;text-align: center;background-color: gray;
+        width: 80px;
+      }
+    }
+
+  }
+
+}
+
+
+.topic_add {
+  margin-bottom: 150px;
+  display: block;
+  .topic_add_title {
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+  }
+  .topic_add_title_txt {
+    width: 100%;
+    height: 30px;
+  }
+  .topic_add_btn {
+    width: 180px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    margin: 20px;
+    border-color: @btn_color;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 100px;
+  }
+
+  .closeTopic {
+    float: right;
+    font-size: 20px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 1.5;
+    background-color: gray;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 15px;
+  }
+
+}

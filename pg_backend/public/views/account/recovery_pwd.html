@@ -1,0 +1,33 @@
+
+<div id="register-content" style="min-height: 30px;">
+    <div id="register-content-wrapper" class="register-content-wrapper">
+        <div class="register-content-wrapper-main">
+            <div class="register-content-wrapper-main-title">
+                <h3>找回密码</h3>
+            </div>
+            <div class="register-content-wrapper-main-form">
+                <form id="register_form" name="register_form-div" ng-submit="submit()" method="POST">
+                    <div class="g-div">
+                            <label>手机号</label>
+                            <input ng-minlength="11" type="text" name="phoneNumber" ng-model="user.phoneNumber" id="register-form-phoneNumber" value="" required/>
+                    </div>
+                    <div class="g-div">
+                        <label>验证码</label>
+                        <input type="text" ng-model="user.scCode" name="scCode" style="width: 50%;" id="register-form-scCode" />
+                        <button type="button" class="sendScCode" ng-click="sendVerifyCode()">获取验证码</button>
+                    </div>
+                    <div class="g-div validation_msg" style="color:red;"></div>
+                    <div class="g-div">
+                        <input type="submit" id="register-form-submit" value="下一步"/>
+                    </div>
+                    <div>
+                        <p><hr></p>
+                        <p>
+                        <div style="cursor: pointer;" ng-click="goBack()">返回</a></div>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

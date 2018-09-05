@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fe58f04-ddcb-4354-bae2-c1994a95a638" name="Default" comment="" />
+    <ignored path="jk_backend.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="jk_backend" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!block;n#addEvent#0" expanded="false" />
+                <element signature="n#!!block;n#displayPosition#0" expanded="false" />
+                <element signature="e#5991#6572#0" expanded="false" />
+                <element signature="e#6612#8573#0" expanded="false" />
+                <element signature="e#12412#17763#0" expanded="false" />
+                <element signature="e#17947#19703#0" expanded="false" />
+                <element signature="e#24324#25956#0" expanded="false" />
+                <element signature="e#26092#27126#0" expanded="false" />
+                <element signature="e#27279#27811#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/home/js/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Jade File" />
+        <option value="Less File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.uploadBtn</find>
+      <find>profile_avatar</find>
+      <find>submit</find>
+      <find>myProgress</find>
+      <find>linkTo</find>
+      <find>EmailRecoveryPwdCtrl</find>
+      <find>followUpBtn</find>
+      <find>profileFootsteps</find>
+      <find>.header-homepage</find>
+      <find>.login-content-wrapper-main-form</find>
+      <find>register-content-wrapper-main-title</find>
+      <find>register-content-wrapper-main-form</find>
+      <find>.register-content-wrapper-main-form</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/coding/pigfish" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/coding/pigfish/54tt_backend/public/views/amazon/css/tp.less" />
+        <option value="$USER_HOME$/coding/pigfish/54tt_backend/public/views/coupon/css/tp.less" />
+        <option value="$USER_HOME$/coding/pigfish/54tt_backend/public/views/rd/css/tp.less" />
+        <option value="$USER_HOME$/coding/pigfish/54tt_backend/public/css/community/community.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/default.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/server/backend.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/comments.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/countries.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/followers.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/helper.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/index.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/messages.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/picScript.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/picture.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/pictureApprove.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/pictures.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/sponsors.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/sticks.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/tagFootsteps.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/topicClicks.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/topicComments.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/topicLikes.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/topics.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/users.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/app.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/home/css/home.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/likes.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/footDetail.html" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/home/footdetail.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/index.html" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/footsteps.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/home/css/home-m.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/profile/profilePub.html" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/home/footdetail-m.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/tool/pixel-m.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/ptool/tool.html" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/tool/pixel.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/app.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/profile/profile-m.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers/account-controller.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers/community-controller.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/profile/profile.html" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/notifications.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/profile/profile.less" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/skins/moono/editor.css" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/skins/moono/dialog.css" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/api.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/home/js/home.js" />
+        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/home/home.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$USER_HOME$/coding/pigfish/pg_backend/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$USER_HOME$/coding/pigfish/54tt_backend/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="82" />
+    <option name="y" value="51" />
+    <option name="width" value="1293" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="0.10.35" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$USER_HOME$/coding/pigfish/54tt_backend" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/coding/pigfish/pg_backend/public/views/profile" />
+      <recent name="$USER_HOME$/coding/pigfish/pg_backend/public/css/profile" />
+      <recent name="$USER_HOME$/coding/pigfish/pg_backend/public/views/home" />
+      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/views/coupon" />
+      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/views/amazon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/js/ckeditor" />
+      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/js/ckeditor/copy" />
+      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/js/ckeditor/editor" />
+      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/js/ckeditor/temp" />
+      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/views/tp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.bin/www">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.bin/www" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fe58f04-ddcb-4354-bae2-c1994a95a638" name="Default" comment="" />
+      <created>1464673437629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1464673437629</updated>
+      <workItem from="1464673438790" duration="18709000" />
+      <workItem from="1464924417815" duration="3694000" />
+      <workItem from="1465881013268" duration="23304000" />
+      <workItem from="1466343103622" duration="1959000" />
+      <workItem from="1466411985127" duration="16609000" />
+      <workItem from="1466870267267" duration="720000" />
+      <workItem from="1466913353013" duration="1266000" />
+      <workItem from="1466998086537" duration="294000" />
+      <workItem from="1467421097814" duration="784000" />
+      <workItem from="1467701289149" duration="1339000" />
+      <workItem from="1467993388176" duration="8418000" />
+      <workItem from="1468158852018" duration="8220000" />
+      <workItem from="1468401438875" duration="1685000" />
+      <workItem from="1468418026358" duration="811000" />
+      <workItem from="1468455903970" duration="1419000" />
+      <workItem from="1468458913345" duration="1244000" />
+      <workItem from="1468489587538" duration="34109000" />
+      <workItem from="1468595208636" duration="9517000" />
+      <workItem from="1468681876532" duration="10202000" />
+      <workItem from="1468736868692" duration="8363000" />
+      <workItem from="1468812277366" duration="2125000" />
+      <workItem from="1468815783435" duration="738000" />
+      <workItem from="1468831113404" duration="4242000" />
+      <workItem from="1468898203965" duration="16350000" />
+      <workItem from="1469019640871" duration="61376000" />
+      <workItem from="1469597857540" duration="22713000" />
+      <workItem from="1469709952081" duration="3064000" />
+      <workItem from="1469714043364" duration="14403000" />
+      <workItem from="1469849599490" duration="58000" />
+      <workItem from="1469853203931" duration="23000" />
+      <workItem from="1469933081921" duration="21114000" />
+      <workItem from="1470401645737" duration="15484000" />
+      <workItem from="1470657044684" duration="242000" />
+      <workItem from="1470754272757" duration="699000" />
+      <workItem from="1470756745771" duration="9922000" />
+      <workItem from="1470819621475" duration="1251000" />
+      <workItem from="1471776160153" duration="1952000" />
+      <workItem from="1471791577509" duration="983000" />
+      <workItem from="1471861430332" duration="1902000" />
+      <workItem from="1472197905516" duration="3862000" />
+      <workItem from="1472214938854" duration="14710000" />
+      <workItem from="1472397397744" duration="29459000" />
+      <workItem from="1472801666669" duration="44540000" />
+      <workItem from="1473147154343" duration="10868000" />
+      <workItem from="1473431426338" duration="68983000" />
+      <workItem from="1473834187890" duration="6659000" />
+      <workItem from="1474129232675" duration="408000" />
+      <workItem from="1474161456888" duration="2365000" />
+      <workItem from="1474330571114" duration="32079000" />
+      <workItem from="1474549360671" duration="2201000" />
+      <workItem from="1474684933106" duration="27289000" />
+      <workItem from="1476365662829" duration="642000" />
+      <workItem from="1477924031229" duration="7494000" />
+      <workItem from="1478360929943" duration="21942000" />
+      <workItem from="1478926901776" duration="14373000" />
+      <workItem from="1479094792677" duration="2380000" />
+      <workItem from="1480140561586" duration="10025000" />
+      <workItem from="1480738767982" duration="655000" />
+      <workItem from="1480827972271" duration="19000" />
+      <workItem from="1480946883561" duration="39175000" />
+      <workItem from="1482085674170" duration="826000" />
+      <workItem from="1482254652757" duration="1610000" />
+      <workItem from="1482558160404" duration="21907000" />
+      <workItem from="1484992704356" duration="5279000" />
+      <workItem from="1485147884216" duration="2358000" />
+      <workItem from="1486589614196" duration="471000" />
+      <workItem from="1486595216261" duration="4739000" />
+      <workItem from="1486755244977" duration="1222000" />
+      <workItem from="1487265878445" duration="698000" />
+      <workItem from="1487329591873" duration="4456000" />
+      <workItem from="1489675020747" duration="587000" />
+      <workItem from="1490172588901" duration="7000" />
+      <workItem from="1490256435718" duration="7000" />
+      <workItem from="1494057026759" duration="11805000" />
+      <workItem from="1495095573644" duration="776000" />
+      <workItem from="1495097710414" duration="10877000" />
+      <workItem from="1495251310099" duration="603000" />
+      <workItem from="1495300795058" duration="35000" />
+      <workItem from="1495377596205" duration="3844000" />
+      <workItem from="1495474264750" duration="1176000" />
+      <workItem from="1495536312474" duration="186000" />
+      <workItem from="1508329806445" duration="1044000" />
+      <workItem from="1508491754361" duration="23033000" />
+      <workItem from="1508816193134" duration="1546000" />
+      <workItem from="1508830346095" duration="1345000" />
+      <workItem from="1483228917210" duration="58000" />
+      <workItem from="1509545753663" duration="59106000" />
+      <workItem from="1483229024695" duration="2140000" />
+      <workItem from="1509773754859" duration="1427000" />
+      <workItem from="1509789902724" duration="7101000" />
+      <workItem from="1510066372092" duration="452000" />
+      <workItem from="1510242091074" duration="7026000" />
+      <workItem from="1510728775727" duration="764000" />
+      <workItem from="1512980657753" duration="973000" />
+      <workItem from="1515228020955" duration="3249000" />
+      <workItem from="1515853255487" duration="44140000" />
+      <workItem from="1516279824966" duration="15970000" />
+      <workItem from="1516363613971" duration="37979000" />
+      <workItem from="1516979103071" duration="15860000" />
+      <workItem from="1517503624865" duration="1622000" />
+      <workItem from="1517577516422" duration="11420000" />
+      <workItem from="1518030827578" duration="30406000" />
+      <workItem from="1527422735654" duration="107000" />
+      <workItem from="1527422976673" duration="21945000" />
+      <workItem from="1527513576141" duration="38112000" />
+      <workItem from="1528041985355" duration="47198000" />
+      <workItem from="1528812025179" duration="4023000" />
+      <workItem from="1529117590483" duration="8188000" />
+      <workItem from="1529154999631" duration="40068000" />
+      <workItem from="1529208324276" duration="9994000" />
+      <workItem from="1529230933824" duration="612000" />
+      <workItem from="1529241157041" duration="10720000" />
+      <workItem from="1529498053814" duration="7021000" />
+      <workItem from="1483228977305" duration="1233000" />
+      <workItem from="1483233462192" duration="2609000" />
+      <workItem from="1530335719797" duration="19000" />
+      <workItem from="1530339244717" duration="6844000" />
+      <workItem from="1530419870801" duration="695000" />
+      <workItem from="1530420803613" duration="54000" />
+      <workItem from="1530420870641" duration="245000" />
+      <workItem from="1530422867734" duration="11854000" />
+      <workItem from="1535122781940" duration="129646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1403915000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="82" y="51" width="1293" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1658805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22060767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34522292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22857143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22060767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3732484" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1658805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22857143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$/coding/pigfish" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/core-sprites.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/crying_face.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/default_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/heart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/icons.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/iqy.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/main_h.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/like64.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/main_h1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/main_p2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/modeng.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/msg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/no-image-available.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/platform_taobao.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/question.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/taotao.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/taotao_backup.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/text-message12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/thumbs-up.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/weibo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/wel-header.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/wel-mid1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/wel-register.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/wel-footer.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/youku.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/youtu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/youtube.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers/account-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="164" column="136" selection-start-line="164" selection-start-column="136" selection-end-line="164" selection-end-column="136" />
+          <folding>
+            <element signature="e#205#1537#0" expanded="false" />
+            <element signature="e#1675#4254#0" expanded="false" />
+            <element signature="e#4398#5461#0" expanded="false" />
+            <element signature="e#5629#6923#0" expanded="false" />
+            <element signature="e#7064#10025#0" expanded="false" />
+            <element signature="e#10161#14069#0" expanded="false" />
+            <element signature="e#14208#16963#0" expanded="false" />
+            <element signature="e#17132#18287#0" expanded="false" />
+            <element signature="e#18459#18772#0" expanded="false" />
+            <marker date="1535871002000" expanded="true" signature="1416:1429" placeholder="..." />
+            <marker date="1535871002000" expanded="true" signature="6775:6788" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers/community-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5490">
+          <caret line="366" column="4" selection-start-line="366" selection-start-column="4" selection-end-line="366" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/footsteps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="129" column="31" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="31" />
+          <folding>
+            <element signature="e#9642#10053#0" expanded="false" />
+            <element signature="e#10120#11669#0" expanded="false" />
+            <element signature="e#11721#14475#0" expanded="false" />
+            <element signature="e#14527#14791#0" expanded="false" />
+            <element signature="e#14855#16389#0" expanded="false" />
+            <element signature="e#16454#18224#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/topics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="51" column="62" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/topicClicks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/notifications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="81" column="376" selection-start-line="81" selection-start-column="376" selection-end-line="81" selection-end-column="376" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/css/profile/profile.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="247" column="16" selection-start-line="247" selection-start-column="16" selection-end-line="247" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/skins/moono/editor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="1059" selection-start-line="4" selection-start-column="1059" selection-end-line="4" selection-end-column="1059" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/skins/moono/dialog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="4" column="831" selection-start-line="4" selection-start-column="831" selection-end-line="4" selection-end-column="831" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/picture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/pictures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="236" column="16" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/build-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="157" column="35" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="35" />
+          <folding>
+            <marker date="1535904572000" expanded="true" signature="1279:1381" placeholder="..." />
+            <marker date="1535904572000" expanded="true" signature="1409:1510" placeholder="..." />
+            <marker date="1535904572000" expanded="true" signature="1653:1849" placeholder="..." />
+            <marker date="1535904572000" expanded="true" signature="2206:2238" placeholder="..." />
+            <marker date="1535904572000" expanded="true" signature="2322:2392" placeholder="..." />
+            <marker date="1535904572000" expanded="true" signature="2433:2540" placeholder="..." />
+            <marker date="1535904572000" expanded="false" signature="3585:3790" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!block;n#addEvent#0" expanded="false" />
+            <element signature="n#!!block;n#displayPosition#0" expanded="false" />
+            <element signature="e#5991#6572#0" expanded="false" />
+            <element signature="e#6612#8573#0" expanded="false" />
+            <element signature="e#12412#17763#0" expanded="false" />
+            <element signature="e#17947#19703#0" expanded="false" />
+            <element signature="e#24324#25956#0" expanded="false" />
+            <element signature="e#26092#27126#0" expanded="false" />
+            <element signature="e#27279#27811#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/home/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

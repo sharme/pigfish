@@ -1,0 +1,58 @@
+<div class="profile_top">
+
+    <div class="profile_title">
+        修改信息
+    </div>
+
+    <form ng-submit="updateSubmit()" method="POST">
+        <!--<div id="profile_top-header">修改个人信息<span id="profile_top-edit-del" ng-click="closeBtn(this)">X</span></div>-->
+        <!--<hr>-->
+        <div id="profile_top-info">
+            <div class="profile_username">
+                <div>
+                    <span class="profile_top_info-username">用户名</span>
+                        <span class="profile_top_info-username-val">
+                            <input type="text" class="text_input" ng-model="user.u_name" value="{{user.u_name}}">
+                        </span>
+                </div>
+            </div>
+            <!--<hr>-->
+            <div class="profile_top_info-avatar-div">
+                <div>
+                    <!--<span class="profile_top_info-avatar">个人图像</span>-->
+
+                    <div class="profile_avatar">
+                        <img class="profile_top_info-avatar-div_img" src="{{user.u_avatar}}">
+                        <div class="fileUpload">
+                            <input type="file" class="upload" onchange="angular.element(this).scope().uploadAvatar(this)" id="avatarImg-btn" class="profile_top_info-avatar-val" name="imageName"/>
+                            <span class="uploadBtn">上传图片</span>
+                        </div>
+                    </div>
+                    <!--<input type="file" onchange="angular.element(this).scope().uploadAvatar(this)" id="avatarImg-btn" class="profile_top_info-avatar-val" name="imageName"/>-->
+
+                </div>
+            </div>
+            <div style="display: none;">
+                <div>
+                    <span class="profile_top_info-address">迹客地址</span>
+                        <span class="profile_top_info-address-val">
+                            <input type="text" class="text_input" ng-model="user.u_link" value="{{user.u_link}}">
+                        </span>
+                </div>
+            </div>
+            <!--<hr>-->
+            <div class="profile_top_info-slogan-div">
+                <div>
+                    <span class="profile_top_info-slogan">签名</span>
+                        <span class="profile_top_info-slogan-val">
+                            <textarea rows="4" cols="29" ng-model="user.u_slogan">{{user.u_slogan}}</textarea>
+                        </span>
+                </div>
+            </div>
+
+            <div>
+                <input type="submit" class="profile_top-edit-submit" value="修改">
+            </div>
+        </div>
+    </form>
+</div>

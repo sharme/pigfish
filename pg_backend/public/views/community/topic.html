@@ -1,0 +1,63 @@
+
+
+<div class="topic">
+    <span class="closeTopic" ng-click="closeTopic()">X</span>
+    <div class="topic_top_like">
+        <div class="topic_top_like_btn" ng-if="!checkUser" ng-click="likeBtn(topic.tp_id, topic.u_id)">喜欢</div>
+        <div class="topic_top_like_btn" ng-if="checkUser" ng-click="editBtn(topic.tp_id)">编辑</div>
+    </div>
+    <div class="topic_top">
+        <div class="topic_top_title">
+            <div class="topic_top_title_about">关于: {{topic.tp_about}}</div>
+            <div class="topic_top_title_description">{{topic.tp_title}}</div>
+        </div>
+    </div>
+    <hr>
+    <div class="topic_info">
+        <div class="topic_info_img">
+            <img class="topic_info_img_avatar" ng-src="{{topic.u_avatar}}"> &nbsp; &nbsp; {{topic.u_name}} <br> 发布于: &nbsp;&nbsp; {{topic.tp_update_time | date: 'yyyy-MM-dd hh:MM'}}
+        </div>
+        <div class="topic_info_elements">
+            <div class="topic_info_elements_data">喜欢<br>{{topic.likes}}</div>
+            <div class="topic_info_elements_data">访问<br>{{clicks[0].clicks}}</div>
+            <div class="topic_info_elements_data">回复<br>{{commentNum}}</div>
+        </div>
+    </div>
+    <hr>
+    <div class="topic_content">
+        <div class="topic_content_info">
+            <p data-ng-bind-html="renderHtml(topic.tp_content)"></p>
+        </div>
+        <div class="topic_content_comment" ng-repeat="comment in comments">
+            <div>
+                回复于: {{comment.tp_cm_create_time | date: 'yyyy-MM-dd HH:mm'}}
+                <div class="topic_content_comment_left">
+                    <img class="topic_content_comment_left_img" ng-src="{{comment.u_avatar}}"><br> {{comment.u_name}}
+                </div>
+                <hr>
+                <div>
+                    <div class="topic_content_comment_right">
+                        <p data-ng-bind-html="renderHtml(comment.tp_cm_content)"></p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="topic_content_reply" style="margin-top: 10px;">
+
+            <form method="POST" ng-submit="submit()" >
+                <textarea name="editor1" id="editor1" rows="10" cols="80" ng-disabled="loginCheck()"></textarea>
+                <button class="topic_content_reply_btn" type="submit">回复</button>
+                <script>
+                    // Replace the <textarea id="editor1"> with a CKEditor
+                    // instance, using default configuration.
+                    CKEDITOR.replace( 'editor1' );
+                </script>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+

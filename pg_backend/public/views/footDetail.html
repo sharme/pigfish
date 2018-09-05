@@ -1,0 +1,141 @@
+
+<div class="foot_wrapper">
+    <div class="foot_wrapper-main">
+        <div class="footstep_div-pic">
+            <img ng-src="{{foot.fs_pic}}" ng-click="switchPic(foot, index_number)" class="picture-present" style="max-width: 100%; cursor: zoom-in; cursor: e-resize;">
+        </div>
+        <div class="foot_wrapper_pic_list">
+            <div class="foot_wrapper_pic_list_img" ng-click="switchPic(foot.fs_pic, 1, true)">
+                <img class="footstep_pic0" ng-src="{{foot.fs_pic.toString().replace('big', 'mini')}}">
+            </div>
+            <div class="foot_wrapper_pic_list_img" ng-if="foot.fs_pic2" ng-click="switchPic(foot.fs_pic2, 2, true)">
+                <img class="footstep_pic2" ng-src="{{foot.fs_pic2.toString().replace('big', 'mini')}}">
+            </div>
+            <div class="foot_wrapper_pic_list_img" ng-if="foot.fs_pic3" ng-click="switchPic(foot.fs_pic3, 3, true)">
+                <img class="footstep_pic3" ng-src="{{foot.fs_pic3.toString().replace('big', 'mini')}}">
+            </div>
+            <div class="foot_wrapper_pic_list_img" ng-if="foot.fs_pic4" ng-click="switchPic(foot.fs_pic4, 4, true)">
+                <img class="footstep_pic3" ng-src="{{foot.fs_pic4.toString().replace('big', 'mini')}}">
+            </div>
+            <div class="foot_wrapper_pic_list_img" ng-if="foot.fs_pic5" ng-click="switchPic(foot.fs_pic5, 5, true)">
+                <img class="footstep_pic3" ng-src="{{foot.fs_pic5.toString().replace('big', 'mini')}}">
+            </div>
+            <div class="foot_wrapper_pic_list_img" ng-if="foot.fs_pic6" ng-click="switchPic(foot.fs_pic6, 6, true)">
+                <img class="footstep_pic3" ng-src="{{foot.fs_pic6.toString().replace('big', 'mini')}}">
+            </div>
+            <div class="foot_wrapper_pic_list_img" ng-if="foot.fs_pic7" ng-click="switchPic(foot.fs_pic7, 7, true)">
+                <img class="footstep_pic3" ng-src="{{foot.fs_pic7.toString().replace('big', 'mini')}}">
+            </div>
+        </div>
+        <div>
+            <p>{{foot.fs_promo}}</p>
+        </div>
+        <hr>
+        <div>
+            <p><div ng-bind-html="renderHtml(foot.fs_des)"></div></p>
+        </div>
+        <hr>
+        <div class="foot_wrapper-main_profile">
+            <div>
+                <img src="{{foot.u_avatar}}"> {{foot.u_name}}(图友)
+            </div>
+            <div class="foot_wrapper-main_profile-slogan">
+                {{foot.u_slogan}}
+            </div>
+            <hr>
+        </div>
+        <div class="foot_wrapper-comment">
+            <p>评论: {{foot.comments}}</p>
+            <div class="foot_wrapper-main_comment" ng-repeat="comment in comments">
+                <div>
+                    回复于: {{comment.cm_create_time | date: 'yyyy-MM-dd HH:mm'}}
+                    <div class="footstep-list-div-comment-avatar">
+                        <img ng-src="{{comment.u_avatar}}" class="footstep-list-div-comment-avatar-img"><br>{{comment.u_name}}
+                    </div>
+                    <hr>
+                    <div class="foot_wrapper-main_comment-content">
+                        <div ng-bind-html="renderHtml(comment.cm_content)"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <form ng-submit="submit()" method="POST">
+                    <div class="topic_content_reply" style="margin-top: 10px;">
+                        <textarea  style="width: 100%;" name="editor1" id="editor1" rows="10" cols="80" ng-disabled="loginCheck()"></textarea>
+                        <button class="foot_wrapper-main_comment-add" type="submit" >评论</button>
+                        <script>
+                             //Replace the <textarea id="editor1"> with a CKEditor
+                             //instance, using default configuration.
+                             CKEDITOR.replace( 'editor1' );
+                        </script>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div class="foot_wrapper-main_follower">
+                瞧瞧谁都来过这里<hr>
+                <div class="foot_wrapper-main_follower-img" ng-repeat="stick in sticks">
+                    <div>
+                        <img ng-src="{{stick.u_avatar?stick.u_avatar:'../img/default_icon.png'}}"  class="footstep-list-div-comment-avatar-img" title="{{stick.u_name}}">
+                        {{stick.u_name}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot_wrapper-main_distance" style="margin-bottom: 150px;"></div>
+    </div>
+    <div class="foot_wrapper-right">
+        <div class="foot_wrapper-right-top">
+            <div class="foot_wrapper-right-top-avatar" ng-click="publicProfile(foot.u_id)">
+                <img ng-src="{{foot.u_avatar}}">
+            </div>
+            <div class="foot_wrapper-right-top-name">{{foot.u_name}}</div><br>
+            <div class="foot_wrapper-right-top-intro">自我介绍</div>
+            <div class="foot_wrapper-right-top-slogan">
+                {{foot.u_slogan}}
+            </div>
+        </div>
+
+        <div class="foot_wrapper-right-info">
+            <div style="text-align: center;background-color: #5cb85c;padding: 5px 10px;">
+                <span style="font-size:30px;color: white;">吃</span>
+                {{foot.fs_city}}
+            </div>
+            <div class="info-div">
+                <div class="info-div-l">创建</div>
+                <div class="info-div-r">{{foot.fs_create_time | date: 'yyyy-MM-dd HH-mm-ss'}}</div>
+            </div>
+            <div class="info-div">
+                <div class="info-div-l">文字</div>
+                <div class="info-div-r">{{foot.fs_des == ''?0:foot.fs_des.length}}</div>
+            </div>
+            <div class="info-div">
+                <div class="info-div-l">喜欢 ({{foot.likes}})</div>
+                <div class="info-div-like" ng-click="likeBtn(foot.fs_id, foot.u_id)">{{foot.like_status==1?'Liked':'Like'}}</div>
+
+            </div>
+            <div class="info-div">
+                <div class="info-div-l">查看</div>
+                <div class="info-div-r">{{foot.fs_pv}}</div>
+            </div>
+        </div>
+        <a href="#/tool/pixel"><div class="header_pub">我也要发布</div></a>
+        <div class="foot_wrapper-right-rec">
+            <div>相关推荐</div>
+            <div class="foot_wrapper-right-rec-list">
+                <div ng-click="recCheck(rec.fs_id)" class="foot_wrapper-right-rec-list-item" ng-repeat="rec in recList track by $index">
+                    <div class="foot_wrapper-right-rec-list-item-div">
+                        <div class="trip_main_city">
+                            <span>玩</span>
+                            {{rec.fs_city}}
+                        </div>
+                        <img ng-src="{{rec.fs_disPic}}">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

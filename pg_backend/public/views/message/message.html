@@ -1,0 +1,10 @@
+<div>
+    <div class="message">
+        <!--<span class="closeTopic" ng-click="closeTopic()">X</span>-->
+        <form ng-controller="MessageController" method="POST" ng-submit="submit()">
+        <div class="message-title" style="color: #AEAEAE;"><p> 发信给54淘淘团队 (微信请加: wang123456lolman)</p></div>
+        <p><textarea class="message-content" cols="60" rows="15" ng-model="message.m_content"></textarea></p>
+        <input type="submit" class="message-submit" value="创建">
+        </form>
+    </div>
+</div>

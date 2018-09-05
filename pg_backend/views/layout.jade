@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/js/server/jquery.min.js')
+    script(src='/js/server/backend.js')
+  body
+    div(style='border-bottom: solid 1px darkblue; margin-bottom: 20px;')
+      h1= title
+    div(class='bk_left' style='width: 15%; min-height:500px; background-color: whitesmoke; float: left; border: solid 1px darkblue;')
+      div(class='home')
+         a(href='home') Home
+      div(class='approves')
+        a(href='index?secret=123456qwertyuiop') Approves
+      div(class='tags')
+        a(href='tags?secret=123456qwertyuiop') Tags
+      div(class='logs')
+        a(href='logs?secret=123456qwertyuiop') Logs
+    block content

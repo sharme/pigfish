@@ -1,0 +1,26 @@
+<div id="login-content" style="min-height: 30px;">
+    <div id="login-content-wrapper" class="login-content-wrapper">
+        <div class="login-content-wrapper-main">
+            <div class="login-content-wrapper-main-title">
+                <h3>重置密码</h3>
+            </div>
+            <div class="login-content-wrapper-main-form">
+                <form ng-controller="ResetPwdCtrl" ng-submit="submit()" method="POST">
+                    <div>
+                        <label>新密码</label>
+                        <input type="password" name="password" ng-model="user.password" class="login-popup-form-phoneNumber" value="" required>
+                    </div>
+                    <div>
+                        <label>重复密码</label>
+                        <input type="password" class="login-popup-form-password" ng-model="user.rePassword" name="rePassword" value="" required>
+                    </div>
+                    <div class="reset-popup-form-invalid">提示: 密码不匹配, 请重新尝试.</div>
+                    <div class="reset-popup-pwd-invalid">提示: 密码长度不能小于8位, 请重新尝试.</div>
+                    <div>
+                        <input type="submit" class="login-popup-form-submit" value="更改">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,168 @@
+
+# Github
+
+
+# easyimage
+https://github.com/hacksparrow/node-easyimage
+
+
+
+
+
+
+
+
+# NGINX
+
+#sudo service nginx start
+#sudo service nginx stop
+#sudo service nginx restart
+#sudo nginx -s reload     execute when configuration file is updated.
+
+# all the request goes to NGINX, zip it and forward and back to Node server
+
+
+
+
+# MYSQL
+
+# ps aux | grep mysql
+# sudo kill [mysql pid]
+#mysql connection
+#mysql.server start
+#mysql -u root -p
+#mysqladmin -u root -p password mypasswd
+
+# QINIU
+
+# all of the uploaded pictures are uploaded to QINIU SERVER
+
+
+
+
+# ZOOM PICTURE
+
+# scale/zoom the original and relocation the new one.
+
+
+
+
+# NG INFINITE SCROLL
+# picture stream smoothly loading
+
+
+
+
+
+# CKEDITOR
+
+# OPEN SOURCE and best web text editor
+
+
+
+
+
+# FOREVER
+
+# forever continuous restart/reconnect your server when connection is broken.
+
+# forever start app.js
+# forever restart
+# forever list
+# forever -h
+
+
+
+
+
+
+# The first version of implement for scroll loading and then changed to ngInfiniteScroll.JS
+
+  // var range = 500;
+  // var totalHeight = 0;
+  // var count = 0;
+  // var scrollPosition;
+  // var invoke = false;
+  //   $(window).scroll(function () {
+  //
+  //     if (document.location.href == localAddress + '/#/foot') {
+  //       console.log("footstep length: " + $scope.footsteps.length);
+  //       if($scope.number > $scope.footsteps.length) {
+  //
+  //         var scrollTop = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+  //
+  //         // console.log("滚动条到顶部的垂直高度: " + $(document).scrollTop());
+  //         // console.log("页面的文档高度 ：" + $(document).height());
+  //         // console.log('浏览器的高度：' + $(window).height());
+  //
+  //         totalHeight = parseFloat($(window).height()) + parseFloat(scrollTop);
+  //         if (($(document).height() - range) <= totalHeight) {
+  //
+  //           // console.log("$(document).height() - range " + ($(document).height() - range) + " <= " + "totalHeight");
+  //
+  //           $http({
+  //             method: 'GET',
+  //             url: ipAddress + '/footsteps/getFootsteps',
+  //             params: {index_start: $scope.footsteps.length, index_end: $scope.footsteps.length + 9}
+  //           }).success(function (data) {
+  //             // count++;
+  //             invoke = true;
+  //             angular.extend($scope.footsteps, data);
+  //           }, function (error) {
+  //                 $scope.error = error;
+  //           });
+  //         } else {
+  //           if(invoke) {
+  //             preview = setInterval(timePage, 1000);
+  //             invoke = false;
+  //           }
+  //         }
+  //       } else {
+  //         if(invoke) {
+  //           preview = setInterval(timePage, 1000);
+  //           invoke = false;
+  //         }
+  //       }
+  //     }
+  //   });
+
+
+
+# use AngularCSS for dynamically injecting stylesheets as needed    / Lazy loading
+
+
+
+
+# GEOIP
+
+
+
+
+
+# forever start bin/www
+
+
+
+
+
+# sponsors
+
+create table jk_sponsors (
+s_id INT UNIQUE KEY auto_increment,
+u_id INT NULL,
+s_name VARCHAR(200) NOT NULL,
+s_amount INT NULL,
+s_logo VARCHAR(200) NULL,
+s_link VARCHAR(200) NULL,
+s_extra VARCHAR(200) NULL,
+s_created_time DATETIME NOT NULL,
+s_created_by VARCHAR(50) NULL,
+s_updated_time DATETIME NULL,
+s_updated_by VARCHAR(50) NULL
+);
+
+
+
+
+
+

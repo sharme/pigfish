@@ -1,0 +1,194 @@
+.explore {
+  padding: 100px 2.5%;
+  height: 60px;
+  display: block;
+}
+.explore .explore_sel {
+  width: 20px;
+  float: left;
+}
+.explore .explore_where {
+  text-align: center;
+}
+.explore .explore_where input {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.explore .explore_where button {
+  padding: 11px 20px 10px 20px;
+  border-radius: 0px;
+  margin-left: 10px;
+}
+.explore .explore_recommend {
+  text-align: center;
+  margin: 10px;
+  color: gray;
+  padding-right: 80px;
+}
+#navigation {
+  float: left;
+  border-bottom: 1px solid rgba(138, 138, 138, 0.3);
+}
+#navigation .navigation-country {
+  margin: 5px;
+  background-color: white;
+  border: solid 1px whitesmoke;
+}
+.footstep_list_home {
+  min-height: 600px;
+  z-index: 2;
+  position: relative;
+  margin: 10px 2%;
+  display: none;
+}
+.footstep_list_profile {
+  width: 100%;
+  float: left;
+  min-height: 600px;
+}
+.footstep-count {
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  margin: 120px 0% 20px 20%;
+}
+.footstep-layout {
+  padding: 0px 10px;
+  background-color: #eee;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+#footstep-list .footstep-list_end,
+#footstep-list .footstep-list_profile_end {
+  padding-right: 40%;
+  height: 100px;
+  position: absolute;
+  color: grey;
+  bottom: 0;
+  text-align: center;
+  line-height: 3;
+  font-size: 14px;
+  width: 100%;
+}
+#footstep-list .footstep-list-div {
+  float: left;
+  border: solid 1px lightgrey;
+  border-radius: 6px;
+  padding: 10px 9px !important;
+  width: 472px !important;
+  top: 200px;
+  position: absolute;
+  visibility: hidden;
+}
+#footstep-list .footstep-list-div-pic {
+  width: 65%;
+  float: left;
+  height: auto;
+}
+#footstep-list .footstep-list-div-pic img {
+  border-radius: 2%;
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+  cursor: zoom-in;
+}
+#footstep-list .footstep-list-div-tag {
+  width: 35px;
+  margin: 5px;
+  border-radius: 50%;
+  height: 35px;
+  position: absolute;
+}
+#footstep-list .footstep-list-div-tag img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+#footstep-list .footstep-list-div-end {
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 56px;
+}
+#footstep-list .footstep-list-div_info {
+  width: 33%;
+  float: right;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-createTime {
+  font-size: 11px;
+  padding: 0px;
+  color: grey;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-desc {
+  padding: 5px 10px 0px 0px;
+  word-wrap: break-word;
+  font-size: 13px;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-desc button {
+  background-color: darkgray;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-desc .footstep-list-div-desc_info {
+  max-height: 100px;
+  overflow: hidden;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-comment {
+  line-height: 15px;
+  padding: 10px;
+  position: relative;
+  font-size: 12px;
+  font-family: cursive;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-comment .footstep-list-div-comment-avatar {
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 60px;
+  float: left;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-comment .footstep-list-div-comment-avatar .footstep-list-div-comment-avatar-img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-comment .footstep-list-div-comment-content {
+  overflow: hidden;
+  height: 50px;
+}
+#footstep-list .footstep-list-div_info .footstep-list-div-comment .footstep-list-div-comment-content img {
+  max-width: 135px;
+}
+.recommend {
+  width: 60%;
+  position: absolute;
+  height: 720px;
+  margin: 30px 20%;
+  top: 260px;
+  display: block;
+}
+.recommend .recommend_title {
+  padding: 3%;
+  font-size: 16px;
+}
+.recommend .recommend_main {
+  height: 200px;
+  margin: 10px;
+  border: solid 1px darkgray;
+  padding: 10px;
+}
+.recommend .recommend_main .recommend_main_pic {
+  width: 40%;
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position-y: -100px;
+  cursor: pointer;
+}
+.share {
+  display: block;
+}
+button {
+  outline: none;
+}

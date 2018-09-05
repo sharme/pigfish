@@ -1,0 +1,37 @@
+<div id="login-content" style="min-height: 30px;">
+    <div id="login-content-wrapper" class="login-content-wrapper">
+        <div class="login-content-wrapper-main">
+            <div class="login-content-wrapper-main-title">
+                邮箱登陆
+            </div>
+            <div class="login-content-wrapper-main-form">
+                <form ng-controller="EmailLoginCtrl" id="email_login_form" ng-submit="submit()" method="POST">
+                    <div>
+                        <label>邮箱</label>
+                        <input type="text" name="u_email" ng-model="user.u_email" class="login-popup-form-phoneNumber" value="" required>
+                    </div>
+                    <div>
+                        <label>密码</label>
+                        <input type="password" class="login-popup-form-password" ng-model="user.u_pwd" name="u_pwd" value="" required>
+                    </div>
+                    <div class="validation_msg" style="color:red;"></div>
+                    <div>
+                        <input type="submit" class="login-popup-form-submit" value="登陆">
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div>
+                        <p>
+                        <div class="go_back" ng-click="goBack()" style="cursor: pointer;"><a href="#/foot">首页</a></div>
+                        <div class="register"><a href="#/email_registration">没有账号</a></div>
+                        <div class="forget_pwd"><a href="#/email_recovery_pwd">忘记密码 ?</a></div>
+                        <div class="email_login"><a href="#/login">手机登陆</a></div>
+                        </p>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

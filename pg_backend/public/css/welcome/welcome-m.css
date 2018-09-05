@@ -1,0 +1,150 @@
+#register-welcome {
+  width: 40%;
+  height: 200px;
+  background-color: lightgrey;
+  margin: 50px 0px 0px 5%;
+  text-align: center;
+  line-height: 6;
+  font-size: 28px;
+  color: gray;
+}
+#register-content {
+  min-height: 800px;
+  display: block;
+}
+#register-content .register-content-wrapper {
+  padding: 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: left;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main {
+  width: 100%;
+  max-width: 350px;
+  text-align: left;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-title {
+  width: 100%;
+  float: left;
+  text-align: center !important;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form {
+  padding: 15px !important;
+  width: 100%;
+  float: left;
+  margin-bottom: 100px;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form .g-div {
+  width: 100%;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form label {
+  display: inline-block;
+  font-size: 1.125em;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  cursor: pointer;
+  text-align: left;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form input[type='text'],
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form input[type='password'] {
+  width: 100%;
+  display: block;
+  line-height: 20px;
+  padding: 12px 13px;
+  border: #d6dadc 1px solid;
+  font-size: 1em;
+  font-weight: 300;
+  outline-width: 0;
+  outline: none;
+  border-radius: 3px;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form input[type='submit'] {
+  line-height: 20px;
+  display: block;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  padding: 13px 32px;
+  font-size: 0.9375em;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  border-image-width: 0;
+  border-radius: 3px;
+  background-color: #8ac249;
+  margin-right: 15px !important;
+  color: #fff;
+  text-decoration: none;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form div {
+  width: 50%;
+  padding: 5px;
+  float: left;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form p {
+  margin-bottom: 0 !important;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 15px 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+#register-content .register-content-wrapper .register-content-wrapper-main .register-content-wrapper-main-form button {
+  padding: 10px;
+  margin: 10px 0px;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc {
+  width: 100%;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc .register-content-wrapper-desc-words {
+  font-size: 16px;
+  float: right;
+  position: absolute;
+  padding: 20px;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc .register-content-wrapper-desc-words .register-content-wrapper-desc-words-msg {
+  display: none;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc .welcome_storyStart {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc .welcome_story .welcome_story_where {
+  text-align: center;
+  height: 60px;
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 13%;
+  border: solid 1px;
+  line-height: 3;
+  font-size: 16px;
+  margin: auto;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc .welcome_story .welcome_story_people {
+  text-align: center;
+  padding: 50px;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc .welcome_story .welcome_story_people img {
+  width: 120px;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc .welcome_story .welcome_story_eat {
+  text-align: center;
+  height: 60px;
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 13%;
+  border: solid 1px;
+  line-height: 3;
+  font-size: 16px;
+  margin: auto;
+}
+#register-content .register-content-wrapper .register-content-wrapper-desc .welcome_storyTitle {
+  text-align: center;
+  margin: 30px;
+  font-size: 18px;
+  border-bottom: solid 1px;
+}

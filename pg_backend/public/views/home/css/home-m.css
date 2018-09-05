@@ -1,0 +1,122 @@
+.find {
+  display: block;
+}
+.search_bar {
+  border: solid 1px #AEAEAE;
+  height: 40px;
+  min-width: 100%;
+  text-align: center;
+  margin: 10px 0% 10px 0%;
+  float: left;
+}
+.search_btn {
+  height: 40px;
+  width: 20%;
+  display: none;
+  float: left;
+  text-align: center;
+  line-height: 3;
+  background-color: palevioletred;
+  cursor: pointer;
+  margin: 10px 0% 10px 0%;
+}
+.header-right {
+  width: 30%;
+}
+.trip_list {
+  margin: 5px 2% 0px 2%;
+  min-height: 800px;
+  display: block;
+}
+.trip_list .trip {
+  min-height: 240px;
+  width: 100%;
+  cursor: pointer;
+  float: left;
+}
+.trip_list .trip .trip_main_source {
+  margin-top: 130px;
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+}
+.trip_list .trip .trip_image {
+  border: solid 1px #AEAEAE;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  float: left;
+}
+.trip_list .trip .trip_info {
+  float: left;
+  margin: 0px 5px 0px 5px;
+  font-size: 12px;
+  color: #AEAEAE;
+}
+.trip_list .trip .trip_info .trip_info_follow {
+  float: right;
+  margin-left: 20px;
+  padding: 2px;
+  border: solid 1px green;
+  color: cadetblue;
+}
+.trip_list .trip .trip_main_avatar {
+  background-color: black;
+  opacity: 0.6;
+}
+.trip_list .trip .trip_main_avatar img {
+  border-radius: 5px;
+  border: solid 1px;
+  width: 50px;
+  padding: 5px;
+}
+.trip_list .trip .trip_main_title {
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.trip_list .trip .trip_main_desc {
+  font-size: 12px;
+  max-height: 100px;
+  margin: 5px 0px 5px 0px;
+}
+.trip_list .trip .trip_main_images {
+  margin-top: 5px;
+  width: 50%;
+  height: 180px;
+  float: left;
+}
+.trip_list .trip .trip_main_images .trip_main_images_image {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+.trip_list .trip .trip_main_images .trip_main_city {
+  background-color: #5cb85c;
+  padding: 5px 10px;
+  position: absolute;
+  margin-left: 75%;
+}
+.trip_list .trip .trip_main_images .trip_main_city span {
+  font-size: 22px;
+  color: aliceblue;
+}
+.trip_list .trip .trip_main_images .trip_main_country {
+  background-color: #5cb85c;
+  padding: 5px 10px;
+  position: absolute;
+  opacity: 0.6;
+  min-width: 75px;
+  min-height: 30px;
+}
+.the_end {
+  height: 200px;
+  text-align: center;
+  border-top: solid 1px #AEAEAE;
+  margin-top: 50px;
+  padding-top: 10px;
+  color: #AEAEAE;
+  width: 100%;
+  float: left;
+}

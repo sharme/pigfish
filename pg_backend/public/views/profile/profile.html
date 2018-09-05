@@ -1,0 +1,96 @@
+<div>
+
+    <div class="profile_top">
+        <div class="profile_top-avatar">
+            <img ng-src="{{user.u_avatar}}">
+        </div>
+        <div class="profile_top-info">
+            <div>小猪章鱼 <span style="font-size: 20px;">上海</span></div>
+            <div>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+            <div>头衔: 乞丐</div>
+            <div>联系他: xxxxxxxxxxx</div>
+        </div>
+        <div class="header_pub"><a href="#/tool/pixel"><span>猪鱼发布</span></a></div>
+    </div>
+
+    <div class="profile_msg">
+        <div>最新消息 (未读{{notifications.unread}})</div>
+        <div>
+            <div class="profile_msg-item" ng-repeat="noti in notifications.list track by $index">
+                <div class="profile_msg-item-l">你的{{noti.type}}被{{noti.u_name}}{{noti.action}}了, 快看看吧！</div>
+                <div class="profile_msg-item-m">{{noti.nf_status == 0? "未读": "已读"}}</div>
+                <div class="profile_msg-item-r" ng-click="deleteMsg(noti.nf_id, $index)">删除</div>
+            </div>
+            <div class="profile_msg-more" ng-if="(notifications.count - notifications.list.length) != 0" ng-click="loadMsgMore()">查看更多消息 ({{notifications.count - notifications.list.length}})</div>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="profile_middle">
+            <div class="profile_middle-point" ng-click="profileFootsteps(userProfile[0].u_id)">
+                {{userProfile[0].footsteps?userProfile[0].footsteps:0}}<br>发布</div>
+            <div class="profile_middle-point" ng-click="profileSticks(userProfile[0].u_id)">
+                {{userProfile[0].sticks?userProfile[0].sticks:0}}<br>
+                喜欢
+            </div>
+            <div class="profile_middle-point" ng-click="profileFollows(userProfile[0].u_id)">
+                {{userProfile[0].follows?userProfile[0].follows:0}}<br>
+                关注
+            </div>
+            <div class="profile_middle-point" ng-click="profileFans(userProfile[0].u_id)">
+                {{userProfile[0].fans?userProfile[0].fans:0}}<br>
+                粉丝
+            </div>
+        </div>
+    </div>
+
+        <div class='trip_list' infinite-scroll="loadMore()" infinite-scroll-distance="2" infinite-scroll-disabled="isbusy" infinite-scroll-immediate-check="false">
+            <div class='trip ' ng-repeat="trip in tripList track by $index" >
+                <div class='trip_main' ng-click="loginCheck(trip.fs_id)" ng-mouseleave="bgColorRemove(trip.fs_id)" ng-mouseenter="bgColorChange(trip.fs_id)">
+                    <div class='trip_main_images'>
+                        <div ng-if="trip.fs_disPic">
+                            <div class="trip_main_city">
+                                <span>玩</span>
+                                丹阳
+                            </div>
+                            <div class="trip_main_country">
+                                {{trip.fs_country}}
+                            </div>
+                            <image class='trip_main_images_image' ng-if='!checkMobile()' ng-src="{{trip.fs_disPic}}"></image>
+                            <image class='trip_main_images_image' ng-if='checkMobile()' ng-src="{{trip.fs_disPic}}"></image>
+                        </div>
+                        <div ng-if="trip.fs_disPic2 && checkMobile()">
+                            <div style="position: absolute;" ng-if="trip.fs_discount">
+                                <img src="../../img/taotao.png" style="width: 25px;height: 25px;border-radius: 50%;margin: 5px;">
+                            </div>
+                            <image class='trip_main_images_image' ng-src="{{trip.fs_disPic2.replace('custom','mini')}}"></image>
+                        </div>
+                        <div ng-if="trip.fs_disPic3 && checkMobile()">
+                            <div style="position: absolute;" ng-if="trip.fs_discount"><img src="../../img/taotao.png" style="width: 25px;height: 25px;border-radius: 50%;margin: 5px;"></div>
+                            <image class='trip_main_images_image' ng-src="{{trip.fs_disPic3.replace('custom', 'mini')}}"></image>
+                        </div>
+                        <div ng-if="trip.fs_disPic4 && checkMobile()">
+                            <div style="position: absolute;" ng-if="trip.fs_discount"><img src="../../img/taotao.png" style="width: 25px;height: 25px;border-radius: 50%;margin: 5px;"></div>
+                            <image class='trip_main_images_image' ng-src="{{trip.fs_disPic4.replace('custom','mini')}}"></image>
+                        </div>
+                    </div>
+                </div>
+                <div class="trip_main_source">
+                    <div class="trip_main_avatar"><img ng-src="{{trip.u_tag}}"></div>
+                    <div class='trip_main_title bgColorChange{{trip.fs_id}}'><text>{{trip.fs_promo}}​​​​</text></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="follow-list">
+            <div ng-repeat="result in results">
+                <div class="follow-list-div-comment-avatar">
+                    <img ng-src="{{result.u_avatar?result.u_avatar:'../../img/default_icon.png'}}" class="follow-list-div-comment-avatar-img" title="{{result.u_name}}">
+                </div>
+            </div>
+        </div>
+
+
+</div>

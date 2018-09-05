@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    #container.main
+        table(style='width:100%;border:1px solid grey; text-align:center;')
+            tr
+                td ID
+                td Description
+                td Created Time
+                td IP
+                td Country
+
+            each re in result
+                tr
+                td= re.lg_id
+                td= re.lg_content
+                td #{moment(re.lg_create_time).format('YYYY-MM-DD HH:mm')}
+                td= re.lg_ip
+                td #{geoip.lookup(re.lg_ip)?geoip.lookup(re.lg_ip).country:''}
+
+
+

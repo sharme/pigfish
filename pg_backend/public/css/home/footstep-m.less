@@ -1,0 +1,208 @@
+@light-grey: lightgrey;
+
+
+//.qr_fmyoutu {
+//  position: absolute;
+//  height: 100px;
+//  width: 100px;
+//  margin-left: 72%;
+//  display: none;
+//}
+
+
+.explore {
+  padding: 10px 2.5%;
+  //border-bottom: 1px solid hsla(0,0%,54%,.3);
+  height: 60px;
+  display: block;
+  .explore_sel {
+    width: 20px;
+    float: left;
+  }
+
+  .explore_where {
+    text-align: center;
+    input {
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 11px 20px 10px 20px;
+      border-radius: 0px;
+    }
+  }
+  .explore_recommend {
+    text-align: center;
+    margin: 10px;
+    color: gray;
+  }
+
+}
+
+
+#navigation {
+  float: left;
+  width: 100%;
+  padding:5px 1% 10px 1%;
+  background-color: white;
+  .navigation-country {
+    margin:5px;
+    background-color: white;
+    border: solid 1px whitesmoke;
+  }
+}
+
+.footstep_list_home {
+  min-height: 600px;
+  z-index: 2;
+  top: 60px;
+  position: relative;
+  margin: 10px 2%;
+  display: none;
+}
+
+.footstep_list_profile {
+  width: 100%;
+  float: left;
+  min-height: 600px;
+}
+.footstep-count {
+  font-size: 12px;
+  color: gray;
+  position: relative;
+  margin: 10px 0px 0px 10%;
+  float: left;
+}
+
+.footstep-layout {
+  padding: 0px 10px;
+  background-color: #eee;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+#footstep-list {
+  .footstep-list_end {
+    padding: 10px 30% 0px 20%;
+    height: 100px;
+    position: relative;
+    color: grey;
+    bottom: 0;
+    text-align: center;
+    line-height: 3;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+  }
+  .footstep-list-div {
+    float: left;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 10px 1.6% 0px 1.6%;
+    width: 336px;
+    top: 10px;
+    border: solid 1px @light-grey;
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+  }
+
+  .footstep-list-div-tag {
+    width: 35px;
+    //background-color: green;
+    margin: 5px;
+    border-radius: 50%;
+    height: 35px;
+    position: absolute;
+    img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+  }
+
+  .footstep-list-div-pic {
+    img {
+      border-radius: 2%; width: 100%; height: 100%; cursor: zoom-in;
+    }
+  }
+  .footstep-list-div-createTime{
+    font-size: 11px;
+    padding: 0px;
+    color: grey;
+  }
+  .footstep-list-div-desc{
+    padding: 5px 10px 5px 0px;
+    word-wrap: break-word;
+    font-size: 13px;
+    button {
+      background-color: darkgray;
+    }
+  }
+  .footstep-list-div-comment {
+    line-height: 15px;
+    padding: 10px;
+    position: relative;
+    font-size: 12px;
+    font-family: cursive;
+    .footstep-list-div-comment-avatar{
+      position: relative;
+      border-radius: 50%;
+      width: 50px;
+      height: 60px;
+      float: left;
+      .footstep-list-div-comment-avatar-img {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+    }
+    .footstep-list-div-comment-content {
+      //overflow: auto;
+      overflow-wrap: break-word;
+      //max-height: 100px;
+      img {
+        max-width: 135px;
+      }
+    }
+  }
+}
+
+
+.recommend {
+
+  position: absolute;
+  height: 540px;
+  margin: 30px 2%;
+  //background-color: whitesmoke;
+  top: 200px;
+
+  .recommend_title {
+    padding: 3%;
+    font-size: 16px;
+  }
+
+  .recommend_main {
+    height: 150px;
+    margin: 10px;
+    border: solid 1px darkgray;
+    padding: 10px;
+    .recommend_main_pic {
+      width: 40%;
+      height: 100%;
+      float: left;
+      margin-right: 10px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
+    }
+
+    .recommend_main_desc {
+
+    }
+
+  }
+
+}

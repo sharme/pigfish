@@ -1,0 +1,64 @@
+
+
+<div class="community">
+    <div class="community_top"><a data-type="18" data-tmpl="670x154" data-tmplid="276" biz-city="上海" biz-type="0" data-rd="2" data-style="1" data-border="1" href="#"></a>
+    <div>
+        <div class="topicFilter" ng-click="topicFilter()">话题</div>
+        <div class="shareFilter" ng-click="shareFilter()">分享</div>
+    </div>
+    <div class="topic_btn">
+        &nbsp;&nbsp;
+        <button ng-click="addLoginCheck()">发表</button>
+    </div>
+    </div>
+    <hr>
+    <div class="community_topic" infinite-scroll="loadMore()" infinite-scroll-distance="2" infinite-scroll-disabled="isbusy" infinite-scroll-immediate-check="false">
+        <div class="community_topic_main" ng-repeat="topic in topics track by $index">
+            <div class="community_topic_main_title">
+                    <span>
+                        <img class="community_topic_main_title_img" ng-src="{{topic.u_avatar?topic.u_avatar:'../../img/default_icon.png'}}">
+                    </span>
+                    &nbsp;&nbsp;{{topic.u_name}} &nbsp;&nbsp;关于&nbsp;&nbsp;
+                    <span>{{topic.tp_about}}</span>
+                    &nbsp;&nbsp;发布的话题&nbsp;&nbsp;
+                    <span><img src="img/heart.png" class="community_topic_main_title_heart">&nbsp;{{topic.likes}}人喜欢</span>
+            </div>
+            <div class="community_topic_content_description">
+                <div class="community_topic_content_description_title" ng-click="topicLoginCheck(topic.tp_id)">{{topic.tp_title}}</div>
+                <div class="community_topic_content_description_main">
+                    <p data-ng-bind-html="renderHtml(topic.tp_subject)"></p>
+                </div>
+                <div class="community_topic_content_description_time">
+                        <span>
+                            <img class="community_topic_content_description_time_img">
+                        </span>
+                    <span>{{topic.tp_update_time | date: 'yyyy-MM-dd HH:mm'}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="community_topic_end" ng-if="topics">
+
+            <img src="img/crying_face.png" style="width: 30px">
+
+            图图侠！快去发布吧.
+        </div>
+
+    </div>
+
+    <div class="community_promo">
+        <div class="community_promo_active">
+                <span>最活跃图友</span>
+                <hr>
+                <span class="community_promo_active_span" ng-repeat="user in topUsers">
+                    <img class="community_promo_active_span_img" ng-src="{{user.u_avatar?user.u_avatar:'../../img/default_icon.png'}}" title="{{user.u_name}}">
+                    <hr>
+                </span>
+
+        </div>
+    </div>
+
+
+
+
+
+</div>

@@ -1,0 +1,190 @@
+.nav_pages {
+  float: left;
+  width: 100%;
+  color: white;
+}
+a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  border-radius: 6px;
+  background-color: #eee;
+  border: none;
+}
+.user-avatar {
+  position: relative;
+  border-radius: 50%;
+  width: auto;
+  height: 30px;
+  float: left;
+}
+.user-avatar-img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.newmsg {
+  top: 0px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 30px;
+  background: url(../img/msg.png);
+  display: none;
+}
+.trip_list {
+  display: none;
+}
+.community {
+  display: none;
+}
+.footstep-list {
+  display: none;
+}
+#header {
+  height: 115px;
+  background-color: #43c17e;
+  width: 100%;
+}
+#header .header_slogo {
+  float: left;
+  color: white;
+  margin-left: 15px;
+}
+#header .header-site {
+  color: white;
+  float: left;
+  font-size: 24px;
+}
+#header .header-div-style {
+  text-align: center;
+  height: 45px;
+  border-radius: 20%;
+  line-height: 2;
+  color: white;
+}
+#header .header-homepage {
+  float: left;
+  list-style-type: none;
+  font-size: 16px;
+  color: white;
+}
+#header .header-right {
+  float: right;
+  padding: 20px 5px 0px 0px;
+}
+#header .header-right .header-right-logout {
+  display: none;
+}
+#header .header-right .header-right-user-icon {
+  background: url(../img/core-sprites.png) -237px 6px no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 110px;
+  z-index: 1;
+  cursor: pointer;
+  background-color: green;
+}
+#header .header-right .header-right-user-icon-hover {
+  position: fixed;
+  top: 10px;
+  left: 45%;
+  z-index: 1;
+}
+#header .qr_fmyoutu {
+  display: none;
+}
+.share {
+  display: none;
+}
+#footer {
+  height: 55px;
+  width: 100%;
+  float: left;
+  line-height: 2;
+  margin-top: 200px;
+  padding: 0px 20px 0px 20px;
+  background-color: lightgrey;
+  bottom: 0;
+  position: fixed;
+  z-index: 1000;
+}
+.message {
+  margin: 50px 10%;
+}
+.message .message-title {
+  font-size: 12px;
+  margin: 0px 0px 20px;
+}
+.message .message-content {
+  width: 100%;
+  border: solid 1px gray;
+}
+.message .message-submit {
+  margin-right: 20px;
+  float: right;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: darkgray;
+  border: none;
+}
+.notification {
+  background-color: white;
+  position: absolute;
+  width: 55%;
+  margin: 35px 0px 0px 40%;
+  border: solid 1px #eee;
+  height: 322px;
+  display: none;
+  z-index: 20;
+  font-size: 12px;
+}
+.notification hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.notification .notification-msg-title {
+  padding: 10px;
+  font-size: 16px;
+}
+.notification .notification-msg-content {
+  padding: 0px 15px;
+  overflow: overlay;
+  height: 250px;
+}
+.notification .notification-msg-content .notification-msg-content-time {
+  color: grey;
+  font-size: 9px;
+}
+.notification .notification-msg-all {
+  height: 35px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2;
+}
+.about {
+  float: right;
+}
+.profile_middle {
+  display: none;
+}
+.foot_wrapper {
+  display: none;
+}
+.topic {
+  display: none;
+}
+.topic_add {
+  display: none;
+}
+.create_footstep {
+  display: none;
+}

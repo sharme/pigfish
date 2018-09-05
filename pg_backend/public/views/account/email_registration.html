@@ -1,0 +1,46 @@
+
+<div id="register-content" style="min-height: 30px;">
+    <div id="register-content-wrapper" class="register-content-wrapper">
+        <div class="register-content-wrapper-main">
+            <div class="register-content-wrapper-main-title">
+                邮箱注册
+            </div>
+            <div class="register-content-wrapper-main-form">
+                <form id="register_form" name="register_form-div" ng-submit="submit()" method="POST">
+
+                    <div class="g-div">
+                        <label>邮箱</label>
+                        <input type="text" name="email" ng-model="user.u_email" id="register-form-email" value="" required/>
+                    </div>
+                    <div class="g-div">
+                        <label>密码</label>
+                        <input type="password" ng-model="user.u_pwd" id="register-form-password" name="password" value="" required/>
+                    </div>
+                    <div class="g-div">
+                        <label>用户名</label>
+                        <input type="text" name="username" ng-model="user.u_name" id="register-form-username" value="" required/>
+                    </div>
+                    <div class="g-div validation_msg" style="color:red;"></div>
+                    <div class="g-div">
+                        <input type="submit" id="register-form-submit" value="注册"/>
+                    </div>
+                    <div class="g-div">
+                        <p>
+                            <hr>
+                        </p>
+                        <p>
+                            <div>
+                                <a href="#/register">手机注册</a>
+                            </div>
+                        </p>
+                        <p>
+                            <div>
+                                注册即接受 <a href="#/account/services" style="text-decoration: underline;" target="_blank">[54淘淘服务协议]</a>
+                            </div>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

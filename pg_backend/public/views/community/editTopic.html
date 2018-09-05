@@ -1,0 +1,37 @@
+
+<div class="topic_add">
+    <span class="closeTopic" ng-click="closeTopic()">X</span>
+
+    <form  ng-controller="editTopicCtrl" method="POST" ng-submit="submit()" >
+        <div class="topic_add_title">发布话题</div>
+        <div>
+            <p>标题</p>
+            <input type="text" class="topic_add_title_txt" ng-model="result.tp_title" alt="输入...">
+            <hr>
+            <div>
+                关于: &nbsp; &nbsp;
+                <select ng-model="result.tp_about">
+                    <option ng-repeat="country in countries">{{country.c_name}}</option>
+                </select>
+            </div>
+            <hr>
+            <div>
+                类型: &nbsp; &nbsp;
+                <select ng-model="result.tp_type">
+                    <option>话题</option>
+                    <option>分享</option>
+                </select>
+            </div>
+        </div>
+        <div class="topic_content_reply" style="margin-top: 10px;">
+            <textarea name="editor1" id="editor1" rows="10" cols="80" >{{result.tp_content}}</textarea>
+            <button class="topic_add_btn" type="submit">发布</button>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'editor1' );
+            </script>
+        </div>
+
+    </form>
+</div>

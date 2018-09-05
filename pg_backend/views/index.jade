@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  #container.main(style='width:80%;float:right;')
+    table(style='width:100%;border:1px solid grey; text-align:center;')
+      tr
+        td ID
+        td(style='width:20%;') Image
+        td(style='width:30%;') Description
+        td Country
+        td CreateBy
+        td CreatedTime
+        td Action
+
+
+      each re in result
+        tr
+        td= re.fs_id
+        td
+          img(src=re.fs_disPic style='width: 100px; height: 100px;')
+        td= re.fs_des
+        td= re.fs_from
+        td= re.createBy
+        td #{moment(re.fs_create_time).format('YYYY-MM-DD HH:mm')}
+        td
+          if re.fs_status == '1'
+            | approved
+          else if re.fs_status == '-1'
+            | rejected
+          else
+            button(onclick='approve(' + re.fs_id + ')') approve
+            button(onclick='reject(' + re.fs_id + ')') reject
+            button(onclick='del(' + re.fs_id + ')') delete
+
+
+
