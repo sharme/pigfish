@@ -1,6 +1,6 @@
 
-var ipaddress = 'http://localhost:8090';
-// var ipaddress = 'http://180.76.152.112:8090';
+// var ipaddress = 'http://localhost:8092';
+var ipaddress = 'http://180.76.152.112:8092';
 
 var menuId = $( "ul.nav" ).first().attr( "id" );
 

@@ -12,42 +12,7 @@
         </div>
     </div>
 
-    <!--<div class='trip_list' infinite-scroll="loadMore()" infinite-scroll-distance="2" infinite-scroll-disabled="isbusy" infinite-scroll-immediate-check="false">-->
-        <!--<div class='trip ' ng-repeat="trip in tripList track by $index" >-->
-            <!--<div class='trip_main' ng-click="loginCheck(trip.fs_id)" ng-mouseleave="bgColorRemove(trip.fs_id)" ng-mouseenter="bgColorChange(trip.fs_id)">-->
-                <!--<div class='trip_main_images'>-->
-                    <!--<div ng-if="trip.fs_disPic">-->
-                        <!--<div class="trip_main_city">-->
-                            <!--<span>玩</span>-->
-                            <!--丹阳-->
-                        <!--</div>-->
-                        <!--<image class='trip_main_images_image' ng-if='!checkMobile()' ng-src="{{trip.fs_disPic}}"></image>-->
-                        <!--<image class='trip_main_images_image' ng-if='checkMobile()' ng-src="{{trip.fs_disPic}}"></image>-->
-                    <!--</div>-->
-                    <!--<div ng-if="trip.fs_disPic2 && checkMobile()">-->
-                        <!--<div style="position: absolute;" ng-if="trip.fs_discount">-->
-                            <!--<img src="../../img/taotao.png" style="width: 25px;height: 25px;border-radius: 50%;margin: 5px;">-->
-                        <!--</div>-->
-                        <!--<image class='trip_main_images_image' ng-src="{{trip.fs_disPic2.replace('custom','mini')}}"></image>-->
-                    <!--</div>-->
-                    <!--<div ng-if="trip.fs_disPic3 && checkMobile()">-->
-                        <!--<div style="position: absolute;" ng-if="trip.fs_discount"><img src="../../img/taotao.png" style="width: 25px;height: 25px;border-radius: 50%;margin: 5px;"></div>-->
-                        <!--<image class='trip_main_images_image' ng-src="{{trip.fs_disPic3.replace('custom', 'mini')}}"></image>-->
-                    <!--</div>-->
-                    <!--<div ng-if="trip.fs_disPic4 && checkMobile()">-->
-                        <!--<div style="position: absolute;" ng-if="trip.fs_discount"><img src="../../img/taotao.png" style="width: 25px;height: 25px;border-radius: 50%;margin: 5px;"></div>-->
-                        <!--<image class='trip_main_images_image' ng-src="{{trip.fs_disPic4.replace('custom','mini')}}"></image>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="trip_main_source">-->
-                <!--<div class="trip_main_avatar"><img ng-src="{{trip.u_tag}}"></div>-->
-                <!--<div class='trip_main_title bgColorChange{{trip.fs_id}}'><text>{{trip.fs_promo}}​​​​</text></div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-
-    <div class='trip_list' infinite-scroll="loadMore()" infinite-scroll-distance="2" infinite-scroll-disabled="isbusy" infinite-scroll-immediate-check="false">
+    <div class='trip_list' infinite-scroll="loadMore()" infinite-scroll-distance="2">
         <div class='find'><input placeholder='快速搜索' type="text" ng-keypress="tpFilter()" class='search_bar' maxlength='-1'/><div class="search_btn" ng-click="tpFilter()">搜索</div></div>
         <div class='trip ' ng-repeat="trip in tripList track by $index" >
             <div class='trip_main' ng-click="loginCheck(trip.fs_id)" ng-mouseleave="bgColorRemove(trip.fs_id)" ng-mouseenter="bgColorChange(trip.fs_id)">

@@ -1,8 +1,8 @@
 'use strict';
 
 var buybsControllers = angular.module('buybsControllers',[]);
-// var ipAddress = 'http://180.76.152.112:8090';
-var ipAddress = 'http://localhost:8090';
+var ipAddress = 'http://180.76.152.112:8092';
+// var ipAddress = 'http://localhost:8092';
 var mobileSize = 550;
 var eLike = 1;
 var eFollow = 2;
@@ -379,52 +379,54 @@ buybsControllers.controller('FootDetailCtrl', ['$scope', '$routeParams', '$http'
 }]);
 
 buybsControllers.controller('ProfileController', ['$scope', '$http', '$window','$cookies','$routeParams','$css', function($scope, $http, $window, $cookies, $routeParams, $css) {
-  $http({method: 'GET', url: ipAddress + '/footsteps/getFootstepsByUID', params:{u_id: $cookies.get("u_id"), index_start: 0, count: 12}})
+  $http({method: 'GET', url: ipAddress + '/footsteps/getFootstepsByUID', params:{u_id: $cookies.get("u_id"), index_start: 0, count: 4}})
       .success(function(data){
         $scope.tripList = data;
       },function(error){
         $scope.error = error;
       });
-  $http({method: 'GET', url: ipAddress + '/footsteps/getFootstepsNumber'})
+
+  $http({method: 'GET', url: ipAddress + '/users/getUserDetail', params:{u_id: $routeParams.u_id,secret:$cookies.get('secret')}})
       .success(function(data){
-        $scope.number = data[0].number;
-      },function(error){
+        $scope.userProfile = data[0];
+      }, function(error){
         $scope.error = error;
       });
-  $scope.isbusy = false;
+  
+  var heightDiv = 800;
   $scope.loadMore = function() {
     if(!querySwitch)
     {
-      if ($scope.tripList && $scope.number > $scope.tripList.length) {
-        $scope.isbusy = true;
+      if ($scope.tripList && $scope.userProfile.footsteps > $scope.tripList.length) {
         $http({
           method: 'GET',
           url: ipAddress + '/footsteps/getFootstepsByUID',
-          params: {index_start: $scope.tripList.length, count: 3, tag: $scope.tag, u_id: $cookies.get("u_id")}
+          params: {index_start: $scope.tripList.length, count: 4, tag: $scope.tag, u_id: $cookies.get("u_id")}
         }).success(function (data) {
           if (data.length > 0) {
             for (var i = 0; i < data.length; i++) {
               $scope.tripList.push(data[i]);
             }
-            $scope.isbusy = false;
+            heightDiv = heightDiv + 1000;
+            $(".trip_list").css("height", heightDiv + "px");
           }
         }, function (error) {
           $scope.error = error;
         });
       }
     } else {
-      if ($scope.tripList && $scope.number > $scope.tripList.length) {
-        $scope.isbusy = true;
+      if ($scope.tripList && $scope.userProfile.likes > $scope.tripList.length) {
         $http({
           method: 'GET',
-          url: ipAddress + '/footsteps/getStickFootstepsByUID',
-          params: {index_start: $scope.tripList.length, count: 3, tag: $scope.tag, u_id: $cookies.get("u_id")}
+          url: ipAddress + '/footsteps/getLikeFootstepsByUID',
+          params: {index_start: $scope.tripList.length, count: 4, tag: $scope.tag, u_id: $cookies.get("u_id")}
         }).success(function (data) {
           if (data.length > 0) {
             for (var i = 0; i < data.length; i++) {
               $scope.tripList.push(data[i]);
             }
-            $scope.isbusy = false;
+            heightDiv = heightDiv + 1000;
+            $(".trip_list").css("height", heightDiv + "px");
           }
         }, function (error) {
           $scope.error = error;
@@ -432,9 +434,7 @@ buybsControllers.controller('ProfileController', ['$scope', '$http', '$window','
       }
     }
   };
-  $scope.loginCheck = function(fs_id) {
-    $window.location.href = "#/foot/" + fs_id;
-  };
+
   $scope.bgColorChange = function (divkey) {
     $(".bgColorChange" + divkey).css("background-color",'rebeccapurple');
   };
@@ -447,44 +447,36 @@ buybsControllers.controller('ProfileController', ['$scope', '$http', '$window','
   $scope.editProfileBtn = function(){
     $window.location.href = "#/profile/edit";
   };
-  $http({method: 'GET', url: ipAddress + '/users/getUserById', params:{u_id:$cookies.get('u_id'),secret:$cookies.get('secret')}})
-      .success(function(data){
-        $scope.user = data[0];
-      }, function(error){
-        $scope.error = error;
-      });
-  $http({method: 'GET', url: ipAddress + '/users/getUserDetail', params:{u_id: $routeParams.u_id,secret:$cookies.get('secret')}})
-      .success(function(data){
-        $scope.userProfile = data;
-      }, function(error){
-        $scope.error = error;
-      });
+
   var querySwitch = false;
   $scope.profileFootsteps = function(u_id) {
     querySwitch = false;
-    $http({method: 'GET', url: ipAddress + '/footsteps/getFootstepsByUID', params:{u_id: $cookies.get("u_id"), index_start: 0, count: 12}})
+    $http({method: 'GET', url: ipAddress + '/footsteps/getFootstepsByUID', params:{u_id: $cookies.get("u_id"), index_start: 0, count: 4}})
         .success(function(data){
           $scope.tripList = data;
         },function(error){
           $scope.error = error;
         });
-      $(".trip_list").css("display", "block");
-      $('.follow-list').css("display",'none');
+    heightDiv = 800;
+    $(".trip_list").css("height","0px");
+    $(".trip_list").css("display", "block");
+    $('.follow-list').css("display",'none');
   };
+
   $scope.profileSticks = function(u_id) {
     querySwitch = true;
-    $scope.val = 2;
-    $scope.isbusy = false;
-    allowScroll = true;
-    $http({method: 'GET', url: ipAddress + '/footsteps/getStickFootstepsByUID', params:{u_id: u_id, index_start: 0, count: 12}})
+    $http({method: 'GET', url: ipAddress + '/footsteps/getLikeFootstepsByUID', params:{u_id: u_id, index_start: 0, count: 4}})
         .success(function(data){
           $scope.tripList = data;
         }, function(error){
           $scope.error = error;
         });
+    heightDiv = 800;
+    $(".trip_list").css("height","0px");
     $(".trip_list").css("display", "block");
     $('.follow-list').css("display",'none');
   };
+  
   $scope.profileFollows = function(u_id) {
     $http({method: 'GET', url: ipAddress + '/followers/getFollowsByUID', params:{u_id: u_id}})
         .success(function(data){
@@ -528,14 +520,12 @@ buybsControllers.controller('ProfileController', ['$scope', '$http', '$window','
       $scope.error = error;
     });
   };
-  
-  
 
   $scope.deleteMsg = function (nf_id, $index) {
 
     $scope.notifications.list.splice($index,1);
     $scope.notifications.count = $scope.notifications.count - 1;
-
+    
     var req = {
       method: 'POST',
       url: ipAddress + '/notifications/del',
@@ -550,7 +540,10 @@ buybsControllers.controller('ProfileController', ['$scope', '$http', '$window','
     }, function(error){
       console.log(error);
     })
-    
+  };
+
+  $scope.goDetail = function(fs_id) {
+    $window.location.href = "#/foot/" + fs_id;
   };
 
   
@@ -558,7 +551,7 @@ buybsControllers.controller('ProfileController', ['$scope', '$http', '$window','
 }]);
 
 buybsControllers.controller('ProfilePubController', ['$scope', '$http', '$window','$cookies','$routeParams','$css', function($scope, $http, $window, $cookies, $routeParams, $css) {
-  $http({method: 'GET', url: ipAddress + '/footsteps/getFootstepsByUID', params:{u_id: $cookies.get("u_id"), index_start: 0, count: 12}})
+  $http({method: 'GET', url: ipAddress + '/footsteps/getFootstepsByUID', params:{u_id: $cookies.get("u_id"), index_start: 0, count: 4}})
       .success(function(data){
         $scope.tripList = data;
       },function(error){
@@ -570,20 +563,20 @@ buybsControllers.controller('ProfilePubController', ['$scope', '$http', '$window
       },function(error){
         $scope.error = error;
       });
-  $scope.isbusy = false;
+  var heightDiv = 800;
   $scope.loadMore = function() {
       if ($scope.tripList && $scope.number > $scope.tripList.length) {
-        $scope.isbusy = true;
         $http({
           method: 'GET',
           url: ipAddress + '/footsteps/getFootstepsByUID',
-          params: {index_start: $scope.tripList.length, count: 3, tag: $scope.tag, u_id: $cookies.get("u_id")}
+          params: {index_start: $scope.tripList.length, count: 4, tag: $scope.tag, u_id: $cookies.get("u_id")}
         }).success(function (data) {
           if (data.length > 0) {
             for (var i = 0; i < data.length; i++) {
               $scope.tripList.push(data[i]);
             }
-            $scope.isbusy = false;
+            heightDiv = heightDiv + 1000;
+            $(".trip_list").css("height", heightDiv + "px");
           }
         }, function (error) {
           $scope.error = error;

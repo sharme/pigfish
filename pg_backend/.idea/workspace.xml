@@ -21,52 +21,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers.js">
+      <file leaf-file-name="footDetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/footDetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+            <state relative-caret-position="1545">
+              <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backend.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/server/backend.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/controllers/account-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="community-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/controllers/community-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="150" column="53" selection-start-line="150" selection-start-column="53" selection-end-line="150" selection-end-column="53" />
               <folding>
-                <element signature="n#!!block;n#addEvent#0" expanded="false" />
-                <element signature="n#!!block;n#displayPosition#0" expanded="false" />
-                <element signature="e#5991#6572#0" expanded="false" />
-                <element signature="e#6612#8573#0" expanded="false" />
-                <element signature="e#12412#17763#0" expanded="false" />
-                <element signature="e#17947#19703#0" expanded="false" />
-                <element signature="e#24324#25956#0" expanded="false" />
-                <element signature="e#26092#27126#0" expanded="false" />
-                <element signature="e#27279#27811#0" expanded="false" />
+                <marker date="1536399938000" expanded="true" signature="1279:1381" placeholder="..." />
+                <marker date="1536399938000" expanded="true" signature="1409:1510" placeholder="..." />
+                <marker date="1536399938000" expanded="true" signature="1653:1849" placeholder="..." />
+                <marker date="1536399938000" expanded="true" signature="2322:2392" placeholder="..." />
+                <marker date="1536399938000" expanded="true" signature="2433:2540" placeholder="..." />
+                <marker date="1536399938000" expanded="false" signature="3637:3842" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/app.js">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/home/js/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
-              <folding />
+            <state relative-caret-position="60">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!block;n#addEvent#0" expanded="false" />
+                <element signature="n#!!block;n#displayPosition#0" expanded="false" />
+                <element signature="e#3593#12231#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,78 +133,78 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/coding/pigfish" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/coding/pigfish/54tt_backend/public/views/amazon/css/tp.less" />
-        <option value="$USER_HOME$/coding/pigfish/54tt_backend/public/views/coupon/css/tp.less" />
-        <option value="$USER_HOME$/coding/pigfish/54tt_backend/public/views/rd/css/tp.less" />
-        <option value="$USER_HOME$/coding/pigfish/54tt_backend/public/css/community/community.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/default.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/server/backend.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/comments.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/countries.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/followers.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/helper.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/index.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/messages.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/picScript.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/picture.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/pictureApprove.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/pictures.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/sponsors.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/sticks.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/tagFootsteps.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/topicClicks.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/topicComments.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/topicLikes.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/topics.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/users.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/app.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/home/css/home.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/likes.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/footDetail.html" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/home/footdetail.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/index.html" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/footsteps.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/home/css/home-m.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/profile/profilePub.html" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/home/footdetail-m.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/tool/pixel-m.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/ptool/tool.html" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/tool/pixel.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/app.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/profile/profile-m.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers/account-controller.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers/community-controller.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/profile/profile.html" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/notifications.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/css/profile/profile.less" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/skins/moono/editor.css" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/skins/moono/dialog.css" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/routes/api.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/home/js/home.js" />
-        <option value="$USER_HOME$/coding/pigfish/pg_backend/public/views/home/home.html" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/picture.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/pictureApprove.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/pictures.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/sponsors.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/sticks.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/tagFootsteps.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/topicClicks.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/topicComments.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/topicLikes.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/topics.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/users.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/app.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/home/css/home.less" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/likes.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/footDetail.html" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/css/home/footdetail.less" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/index.html" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/footsteps.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/home/css/home-m.less" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/profile/profilePub.html" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/css/home/footdetail-m.less" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/css/tool/pixel-m.less" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/ptool/tool.html" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/css/tool/pixel.less" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/js/app.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/css/profile/profile-m.less" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/js/controllers/account-controller.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/js/controllers/community-controller.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/profile/profile.html" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/notifications.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/css/profile/profile.less" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/skins/moono/editor.css" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/skins/moono/dialog.css" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/routes/api.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/js/controllers.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/home/js/home.js" />
+        <option value="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/home/home.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/views/home/css/home.less" />
+        <option value="$PROJECT_DIR$/public/views/home/js/home.js" />
+        <option value="$PROJECT_DIR$/public/views/home/home.html" />
+        <option value="$PROJECT_DIR$/public/views/profile/profilePub.html" />
+        <option value="$PROJECT_DIR$/routes/footsteps.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/public/views/profile/profile.html" />
+        <option value="$PROJECT_DIR$/public/views/footDetail.html" />
+        <option value="$PROJECT_DIR$/public/js/controllers.js" />
+        <option value="$PROJECT_DIR$/public/js/server/backend.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true">
-    <package-json value="$USER_HOME$/coding/pigfish/pg_backend/package.json" />
+    <package-json value="$PROJECT_DIR$/../../pigfish/pg_backend/package.json" />
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$USER_HOME$/coding/pigfish/54tt_backend/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../../pigfish/54tt_backend/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="82" />
-    <option name="y" value="51" />
+    <option name="y" value="23" />
     <option name="width" value="1293" />
     <option name="height" value="877" />
   </component>
@@ -202,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -211,6 +241,12 @@
               <option name="myItemId" value="pg_backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pg_backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -227,72 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pg_backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pg_backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pg_backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pg_backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pg_backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pg_backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,8 +332,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pg_backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleimagebrowser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,24 +375,24 @@
     <property name="javascript.nodejs.core.library.configured.version" value="0.10.35" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/coding/pigfish/54tt_backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="Less" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/coding/pigfish/pg_backend/public/views/profile" />
-      <recent name="$USER_HOME$/coding/pigfish/pg_backend/public/css/profile" />
-      <recent name="$USER_HOME$/coding/pigfish/pg_backend/public/views/home" />
-      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/views/coupon" />
-      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/views/amazon" />
+      <recent name="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/profile" />
+      <recent name="$PROJECT_DIR$/../../pigfish/pg_backend/public/css/profile" />
+      <recent name="$PROJECT_DIR$/../../pigfish/pg_backend/public/views/home" />
+      <recent name="$PROJECT_DIR$/../../pigfish/54tt_backend/public/views/coupon" />
+      <recent name="$PROJECT_DIR$/../../pigfish/54tt_backend/public/views/amazon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/js/ckeditor" />
-      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/js/ckeditor/copy" />
-      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/js/ckeditor/editor" />
-      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/js/ckeditor/temp" />
-      <recent name="$USER_HOME$/coding/pigfish/54tt_backend/public/views/tp" />
+      <recent name="$PROJECT_DIR$/../../pigfish/54tt_backend/public/js/ckeditor" />
+      <recent name="$PROJECT_DIR$/../../pigfish/54tt_backend/public/js/ckeditor/copy" />
+      <recent name="$PROJECT_DIR$/../../pigfish/54tt_backend/public/js/ckeditor/editor" />
+      <recent name="$PROJECT_DIR$/../../pigfish/54tt_backend/public/js/ckeditor/temp" />
+      <recent name="$PROJECT_DIR$/../../pigfish/54tt_backend/public/views/tp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -599,11 +600,12 @@
       <workItem from="1530420870641" duration="245000" />
       <workItem from="1530422867734" duration="11854000" />
       <workItem from="1535122781940" duration="129646000" />
+      <workItem from="1536330657239" duration="19281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1403915000" />
+    <option name="totallyTimeSpent" value="1423196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,8 +617,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="82" y="51" width="1293" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="82" y="23" width="1293" height="877" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1658805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -625,7 +627,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22060767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34522292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38754764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -674,7 +676,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$USER_HOME$/coding/pigfish" />
+      <path value="$PROJECT_DIR$/../../pigfish" />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
@@ -684,368 +686,413 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/bg.jpg">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/taotao.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/core-sprites.png">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/taotao_backup.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/crying_face.png">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/text-message12.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/default_icon.png">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/thumbs-up.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/heart.png">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/weibo.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/icons.png">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/wel-header.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/iqy.jpeg">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/wel-mid1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/main_h.jpg">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/wel-register.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/like64.png">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/wel-footer.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/main_h1.jpg">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/youku.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/main_p2.jpg">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/youtu.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/modeng.jpeg">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/img/youtube.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/msg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/no-image-available.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/platform_taobao.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/question.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/taotao.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/taotao_backup.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/text-message12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/thumbs-up.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/weibo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/wel-header.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/wel-mid1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/wel-register.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/wel-footer.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/youku.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/youtu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/img/youtube.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers/account-controller.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/controllers/account-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="164" column="136" selection-start-line="164" selection-start-column="136" selection-end-line="164" selection-end-column="136" />
-          <folding>
-            <element signature="e#205#1537#0" expanded="false" />
-            <element signature="e#1675#4254#0" expanded="false" />
-            <element signature="e#4398#5461#0" expanded="false" />
-            <element signature="e#5629#6923#0" expanded="false" />
-            <element signature="e#7064#10025#0" expanded="false" />
-            <element signature="e#10161#14069#0" expanded="false" />
-            <element signature="e#14208#16963#0" expanded="false" />
-            <element signature="e#17132#18287#0" expanded="false" />
-            <element signature="e#18459#18772#0" expanded="false" />
-            <marker date="1535871002000" expanded="true" signature="1416:1429" placeholder="..." />
-            <marker date="1535871002000" expanded="true" signature="6775:6788" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers/community-controller.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/controllers/community-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5490">
           <caret line="366" column="4" selection-start-line="366" selection-start-column="4" selection-end-line="366" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/app.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="70" column="23" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/profile/profile.html">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/views/profile/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/footsteps.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/routes/footsteps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="129" column="31" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="31" />
-          <folding>
-            <element signature="e#9642#10053#0" expanded="false" />
-            <element signature="e#10120#11669#0" expanded="false" />
-            <element signature="e#11721#14475#0" expanded="false" />
-            <element signature="e#14527#14791#0" expanded="false" />
-            <element signature="e#14855#16389#0" expanded="false" />
-            <element signature="e#16454#18224#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/topics.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/routes/topics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="51" column="62" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/topicClicks.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/routes/topicClicks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/notifications.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/routes/notifications.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="81" column="376" selection-start-line="81" selection-start-column="376" selection-end-line="81" selection-end-column="376" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/css/profile/profile.less">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/css/profile/profile.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="247" column="16" selection-start-line="247" selection-start-column="16" selection-end-line="247" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/skins/moono/editor.css">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/skins/moono/editor.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="4" column="1059" selection-start-line="4" selection-start-column="1059" selection-end-line="4" selection-end-column="1059" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/skins/moono/dialog.css">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/skins/moono/dialog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="4" column="831" selection-start-line="4" selection-start-column="831" selection-end-line="4" selection-end-column="831" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/picture.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/routes/picture.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/pictures.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/routes/pictures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/routes/api.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/routes/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="236" column="16" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/styles.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/styles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
           <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/ckeditor.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/ckeditor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/config.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/build-config.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/build-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="157" column="35" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="35" />
-          <folding>
-            <marker date="1535904572000" expanded="true" signature="1279:1381" placeholder="..." />
-            <marker date="1535904572000" expanded="true" signature="1409:1510" placeholder="..." />
-            <marker date="1535904572000" expanded="true" signature="1653:1849" placeholder="..." />
-            <marker date="1535904572000" expanded="true" signature="2206:2238" placeholder="..." />
-            <marker date="1535904572000" expanded="true" signature="2322:2392" placeholder="..." />
-            <marker date="1535904572000" expanded="true" signature="2433:2540" placeholder="..." />
-            <marker date="1535904572000" expanded="false" signature="3585:3790" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/app.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="645">
           <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding>
-            <element signature="n#!!block;n#addEvent#0" expanded="false" />
-            <element signature="n#!!block;n#displayPosition#0" expanded="false" />
-            <element signature="e#5991#6572#0" expanded="false" />
-            <element signature="e#6612#8573#0" expanded="false" />
-            <element signature="e#12412#17763#0" expanded="false" />
-            <element signature="e#17947#19703#0" expanded="false" />
-            <element signature="e#24324#25956#0" expanded="false" />
-            <element signature="e#26092#27126#0" expanded="false" />
-            <element signature="e#27279#27811#0" expanded="false" />
+            <marker date="1536157239000" expanded="false" signature="383:970" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="405:902" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="422:524" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="540:700" placeholder="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1536157239000" expanded="true" signature="624:676" placeholder="{&quot;Content-Type&quot;: 'application/json'...}" />
+            <marker date="1536157239000" expanded="true" signature="743:844" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="794:838" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="863:896" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="908:968" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="924:964" placeholder="{...}" />
+            <marker date="1536157239000" expanded="false" signature="1033:3389" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="1089:3379" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="1318:1384" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="1441:1489" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="1563:3304" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="1689:1700" placeholder="[...]" />
+            <marker date="1536157239000" expanded="true" signature="1828:1914" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="2057:3207" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="2107:2244" placeholder="{&quot;visibility&quot;: &quot;visible&quot;...}" />
+            <marker date="1536157239000" expanded="true" signature="2286:2535" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="2418:2523" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="2449:2507" placeholder="{&quot;margin-bottom&quot;: &quot;200px&quot;...}" />
+            <marker date="1536157239000" expanded="true" signature="2651:2704" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="2710:2904" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="2852:2892" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="2994:3197" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="3310:3375" placeholder="{...}" />
+            <marker date="1536157239000" expanded="true" signature="27614:27620" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/home/js/home.js">
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/views/home/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <marker date="1536157239000" expanded="true" signature="100:3256" placeholder="[...]" />
+            <marker date="1536157239000" expanded="true" signature="213:3256" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../pigfish/pg_backend/public/views/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/coding/pigfish/pg_backend/public/views/home/home.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/home/css/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/profile/profilePub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/home/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="59" column="84" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
+          <folding>
+            <marker date="1536395748000" expanded="true" signature="8786:8800" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/footsteps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="155" column="3" selection-start-line="155" selection-start-column="3" selection-end-line="155" selection-end-column="3" />
+          <folding>
+            <element signature="e#566#3596#0" expanded="false" />
+            <element signature="e#3658#6885#0" expanded="false" />
+            <element signature="e#6947#7750#0" expanded="false" />
+            <element signature="e#8289#9208#0" expanded="false" />
+            <element signature="e#9260#11916#0" expanded="false" />
+            <element signature="e#11968#12232#0" expanded="false" />
+            <element signature="e#12296#13788#0" expanded="false" />
+            <element signature="e#13852#15571#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/footDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!block;n#addEvent#0" expanded="false" />
+            <element signature="n#!!block;n#displayPosition#0" expanded="false" />
+            <element signature="e#3593#12231#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/server/backend.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/account-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/controllers/community-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ckeditor/plugins/simpleimagebrowser/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="150" column="53" selection-start-line="150" selection-start-column="53" selection-end-line="150" selection-end-column="53" />
+          <folding>
+            <marker date="1536399938000" expanded="true" signature="1279:1381" placeholder="..." />
+            <marker date="1536399938000" expanded="true" signature="1409:1510" placeholder="..." />
+            <marker date="1536399938000" expanded="true" signature="1653:1849" placeholder="..." />
+            <marker date="1536399938000" expanded="true" signature="2322:2392" placeholder="..." />
+            <marker date="1536399938000" expanded="true" signature="2433:2540" placeholder="..." />
+            <marker date="1536399938000" expanded="false" signature="3637:3842" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

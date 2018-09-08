@@ -1,4 +1,4 @@
-<div class='trip_list' infinite-scroll="loadMore()" infinite-scroll-distance="1" infinite-scroll-disabled="isbusy" infinite-scroll-immediate-check="true">
+<div class='trip_list' infinite-scroll="loadMore()" infinite-scroll-distance="2">
     <div class='find'><input placeholder='快速搜索' type="text" ng-keypress="tpFilter()" class='search_bar' maxlength='-1'/><div class="search_btn" ng-click="tpFilter()">搜索</div></div>
     <div class='trip ' ng-repeat="trip in tripList track by $index" >
         <div class='trip_main' ng-click="loginCheck(trip.fs_id)" ng-mouseleave="bgColorRemove(trip.fs_id)" ng-mouseenter="bgColorChange(trip.fs_id)">
@@ -28,5 +28,5 @@
             <div class='trip_main_title bgColorChange{{trip.fs_id}}'><text>{{trip.fs_promo}}​​​​</text></div>
 	    </div>
     </div>
-    <div class="the_end">没有了.</div>
+    <div class="the_end">没有更多叻.</div>
 </div>

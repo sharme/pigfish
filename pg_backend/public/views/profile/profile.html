@@ -2,11 +2,11 @@
 
     <div class="profile_top">
         <div class="profile_top-avatar">
-            <img ng-src="{{user.u_avatar}}">
+            <img ng-src="{{userProfile.u_avatar}}">
         </div>
         <div class="profile_top-info">
-            <div>小猪章鱼 <span style="font-size: 20px;">上海</span></div>
-            <div>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+            <div>小猪章鱼 <span style="font-size: 20px;">{{userProfile.u_name}}</span></div>
+            <div>{{userProfile.u_slogan}}</div>
             <div>头衔: 乞丐</div>
             <div>联系他: xxxxxxxxxxx</div>
         </div>
@@ -28,26 +28,26 @@
 
     <div>
         <div class="profile_middle">
-            <div class="profile_middle-point" ng-click="profileFootsteps(userProfile[0].u_id)">
-                {{userProfile[0].footsteps?userProfile[0].footsteps:0}}<br>发布</div>
-            <div class="profile_middle-point" ng-click="profileSticks(userProfile[0].u_id)">
-                {{userProfile[0].sticks?userProfile[0].sticks:0}}<br>
+            <div class="profile_middle-point" ng-click="profileFootsteps(userProfile.u_id)">
+                {{userProfile.footsteps?userProfile.footsteps:0}}<br>发布</div>
+            <div class="profile_middle-point" ng-click="profileSticks(userProfile.u_id)">
+                {{userProfile.likes?userProfile.likes:0}}<br>
                 喜欢
             </div>
-            <div class="profile_middle-point" ng-click="profileFollows(userProfile[0].u_id)">
-                {{userProfile[0].follows?userProfile[0].follows:0}}<br>
+            <div class="profile_middle-point" ng-click="profileFollows(userProfile.u_id)">
+                {{userProfile.follows?userProfile.follows:0}}<br>
                 关注
             </div>
-            <div class="profile_middle-point" ng-click="profileFans(userProfile[0].u_id)">
-                {{userProfile[0].fans?userProfile[0].fans:0}}<br>
+            <div class="profile_middle-point" ng-click="profileFans(userProfile.u_id)">
+                {{userProfile.fans?userProfile.fans:0}}<br>
                 粉丝
             </div>
         </div>
     </div>
 
-        <div class='trip_list' infinite-scroll="loadMore()" infinite-scroll-distance="2" infinite-scroll-disabled="isbusy" infinite-scroll-immediate-check="false">
+        <div class='trip_list' infinite-scroll="loadMore()" infinite-scroll-distance="2">
             <div class='trip ' ng-repeat="trip in tripList track by $index" >
-                <div class='trip_main' ng-click="loginCheck(trip.fs_id)" ng-mouseleave="bgColorRemove(trip.fs_id)" ng-mouseenter="bgColorChange(trip.fs_id)">
+                <div class='trip_main' ng-click="goDetail(trip.fs_id)" ng-mouseleave="bgColorRemove(trip.fs_id)" ng-mouseenter="bgColorChange(trip.fs_id)">
                     <div class='trip_main_images'>
                         <div ng-if="trip.fs_disPic">
                             <div class="trip_main_city">
@@ -85,10 +85,13 @@
 
 
         <div class="follow-list">
-            <div ng-repeat="result in results">
+            <div ng-repeat="result in results" style="height: 100px;
+    width: 75px;
+    float: left;">
                 <div class="follow-list-div-comment-avatar">
-                    <img ng-src="{{result.u_avatar?result.u_avatar:'../../img/default_icon.png'}}" class="follow-list-div-comment-avatar-img" title="{{result.u_name}}">
+                    <img ng-src="{{result.u_avatar?result.u_avatar:'../../img/default_icon.png'}}" class="follow-list-div-comment-avatar-img">
                 </div>
+                <div style="text-align: center;">{{result.u_name}}</div>
             </div>
         </div>
 

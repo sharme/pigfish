@@ -40,7 +40,7 @@ router.get('/getUserById', function(req, res, next) {
   
   if(req.param('secret') == auth.encrypt(req.param('u_id'))) {
 
-    var criteriaSQL = mysql.format('select * from jk_users where u_id = ?', req.param('u_id'));
+    var criteriaSQL = mysql.format('select u_avatar, u_link, u_name, u_slogan from jk_users where u_id = ?', req.param('u_id'));
     connection.query(criteriaSQL, function (err, rows, fields) {
       if (err) {
         res.send(err);
@@ -57,9 +57,9 @@ router.get('/getUserById', function(req, res, next) {
 router.get('/getUserDetail', function(req, res, next) {
   
   if (req.param('secret') == auth.encrypt(req.param('u_id'))) {
-    var criteriaSQL = mysql.format("select u_id," +
+    var criteriaSQL = mysql.format("select u_id, u_name, u_avatar, u_slogan, u_link," +
         " u_name,(select count(*) from jk_footsteps as jkf where jkf.u_id = jku.u_id) as footsteps," +
-        "(select count(*) from jk_sticks as jks where jks.u_id = jku.u_id) as sticks," +
+        "(select count(*) from jk_likes as jks where jks.u_id = jku.u_id) as likes," +
         "(select count(*) from jk_followers as jkf where jkf.fl_fl_id = jku.u_id) as follows," +
         "(select count(*) from jk_followers as jkf where jkf.u_id = jku.u_id) as fans from jk_users as jku where jku.u_id = ?", [req.param('u_id')]);
 

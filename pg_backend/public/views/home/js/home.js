@@ -6,9 +6,10 @@ community.controller('TripCtrl', ['$scope', '$cookies', '$window', '$http', '$cs
         if($(window).width() < mobileSize - 100)
             return true;
     };
-    $http({method: 'GET', url: ipAddress + '/footsteps/getFootsteps', params:{index_start: 0, count: 8, u_id: $cookies.get('u_id')}})
+    $http({method: 'GET', url: ipAddress + '/footsteps/getFootsteps', params:{index_start: 0, count: 4, u_id: $cookies.get('u_id')}})
         .success(function(data){
             $scope.tripList = data;
+            // $scope.isbusy = false;
         },function(error){
             $scope.error = error;
         });
@@ -19,25 +20,30 @@ community.controller('TripCtrl', ['$scope', '$cookies', '$window', '$http', '$cs
         },function(error){
             $scope.error = error;
         });
-    $scope.isbusy = false;
+    var heightDiv = 800;
     $scope.loadMore = function() {
+        // $scope.isbusy = true;
         if($scope.tripList && $scope.number > $scope.tripList.length) {
-            $scope.isbusy = true;
+            // $scope.isbusy = false;
             $http({
                 method: 'GET',
                 url: ipAddress + '/footsteps/getFootstepsByTag',
-                params: {index_start: $scope.tripList.length, count: 3,tag: $scope.tag, filter: $scope.filter}
+                params: {index_start: $scope.tripList.length, count: 4,tag: $scope.tag, filter: $scope.filter}
             }).success(function (data) {
                 if (data.length > 0) {
                     for (var i = 0; i < data.length; i++) {
                         $scope.tripList.push(data[i]);
                     }
-                    $scope.isbusy = false;
+                    $(".trip_list").css("height", heightDiv + "px");
+                    // $scope.isbusy = false;
                 }
             }, function (error) {
                 $scope.error = error;
             });
+            heightDiv = heightDiv + 1000;
+            $(".trip_list").css("height", heightDiv + "px");
         }
+
     };
     $scope.loginCheck = function(fs_id) {
         $window.location.href = "#/foot/" + fs_id;
